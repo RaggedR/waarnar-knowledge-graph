@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Warnaar Literature Knowledge Graph</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0a0a0f; color: #ccc; font-family: 'SF Mono', 'Fira Code', monospace; overflow: hidden; }
+
+#controls {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 10;
+  background: rgba(10,10,15,0.95); border-bottom: 1px solid #222;
+  padding: 10px 16px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+}
+#controls label { font-size: 11px; color: #888; }
+#controls input[type="text"] {
+  background: #151520; border: 1px solid #333; color: #eee;
+  padding: 4px 8px; border-radius: 4px; font-size: 12px; width: 220px;
+  font-family: inherit;
+}
+#controls .toggle { display: flex; gap: 6px; align-items: center; }
+#controls .toggle button {
+  background: #1a1a2a; border: 1px solid #333; color: #888;
+  padding: 3px 8px; border-radius: 3px; font-size: 11px; cursor: pointer;
+  font-family: inherit;
+}
+#controls .toggle button.active { background: var(--color); color: #fff; border-color: var(--color); }
+#stats { font-size: 11px; color: #555; margin-left: auto; }
+
+#info-panel {
+  position: fixed; right: 0; top: 42px; bottom: 0; width: 320px;
+  background: rgba(10,10,15,0.95); border-left: 1px solid #222;
+  padding: 16px; overflow-y: auto; z-index: 10;
+  transform: translateX(100%); transition: transform 0.2s;
+  font-size: 12px;
+}
+#info-panel.open { transform: translateX(0); }
+#info-panel h2 { font-size: 14px; margin-bottom: 8px; }
+#info-panel .type-badge {
+  display: inline-block; padding: 2px 6px; border-radius: 3px;
+  font-size: 10px; margin-bottom: 8px;
+}
+#info-panel ul { list-style: none; padding: 0; }
+#info-panel li { padding: 2px 0; color: #aaa; cursor: pointer; }
+#info-panel li:hover { color: #fff; }
+#info-panel .section { margin-top: 12px; }
+#info-panel .section-title { color: #666; font-size: 10px; text-transform: uppercase; margin-bottom: 4px; }
+
+svg { width: 100vw; height: 100vh; }
+</style>
+</head>
+<body>
+
+<div id="controls">
+  <label>Search:</label>
+  <input type="text" id="search" placeholder="cylindric partitions...">
+  <div class="toggle">
+    <button data-type="paper" style="--color:#e06c75">Papers</button>
+    <button class="active" data-type="concept" style="--color:#61afef">Concepts</button>
+    <button data-type="result" style="--color:#c678dd">Results</button>
+    <button data-type="author" style="--color:#98c379">Authors</button>
+  </div>
+  <div id="stats"></div>
+</div>
+
+<div id="info-panel">
+  <h2 id="info-label"></h2>
+  <div id="info-type" class="type-badge"></div>
+  <div id="info-body"></div>
+</div>
+
+<svg></svg>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+const COLORS = {
+  paper: '#e06c75', concept: '#61afef', result: '#c678dd', author: '#98c379'
+};
+const HERO_NODE = 'concept:cylindric partitions';
+const HERO_COLOR = '#f0c040';
+const RADIUS = { paper: 8, concept: 5, result: 4, author: 6 };
+
+let graph, simulation, nodeElements, linkElements, labelElements;
+let activeTypes = new Set(['concept']);
+let highlightedNode = null;
+
+async function init() {
+  const resp = await fetch('graph.json');
+  graph = await resp.json();
+
+  // Precompute adjacency
+  graph.adjacency = {};
+  graph.edges.forEach(e => {
+    (graph.adjacency[e.source] ||= []).push({ target: e.target, relation: e.relation });
+    (graph.adjacency[e.target] ||= []).push({ target: e.source, relation: e.relation });
+  });
+
+  // Node lookup
+  graph.nodeMap = {};
+  graph.nodes.forEach(n => graph.nodeMap[n.id] = n);
+
+  document.getElementById('stats').textContent =
+    `${graph.nodes.length} nodes · ${graph.edges.length} edges · ${graph.meta.papers} papers`;
+
+  render();
+  setupControls();
+}
+
+function render() {
+  const svg = d3.select('svg');
+  svg.selectAll('*').remove();
+
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+
+  // Filter nodes/edges by active types
+  const visibleNodes = graph.nodes.filter(n => activeTypes.has(n.type));
+  const visibleIds = new Set(visibleNodes.map(n => n.id));
+  const visibleEdges = graph.edges.filter(e =>
+    visibleIds.has(e.source?.id || e.source) && visibleIds.has(e.target?.id || e.target)
+  );
+
+  const g = svg.append('g');
+
+  // Zoom
+  const zoom = d3.zoom()
+    .scaleExtent([0.1, 8])
+    .on('zoom', (event) => g.attr('transform', event.transform));
+  svg.call(zoom);
+
+  // Start zoomed out, then center on hero node after simulation settles
+  const initialScale = 0.5;
+  svg.call(zoom.transform, d3.zoomIdentity
+    .translate(width / 2, height / 2)
+    .scale(initialScale)
+    .translate(-width / 2, -height / 2)
+  );
+
+  // Links
+  linkElements = g.append('g')
+    .selectAll('line')
+    .data(visibleEdges)
+    .join('line')
+    .attr('stroke', '#222')
+    .attr('stroke-width', 0.5);
+
+  // Nodes
+  nodeElements = g.append('g')
+    .selectAll('circle')
+    .data(visibleNodes)
+    .join('circle')
+    .attr('r', d => d.id === HERO_NODE ? 14 : RADIUS[d.type] + (d.papers?.length || 1) * 0.3)
+    .attr('fill', d => d.id === HERO_NODE ? HERO_COLOR : COLORS[d.type])
+    .attr('opacity', 0.8)
+    .attr('cursor', 'pointer')
+    .on('click', (event, d) => showInfo(d))
+    .on('mouseover', (event, d) => highlight(d))
+    .on('mouseout', () => unhighlight())
+    .call(d3.drag()
+      .on('start', dragStart)
+      .on('drag', dragging)
+      .on('end', dragEnd)
+    );
+
+  // Labels (only for papers and high-degree nodes)
+  labelElements = g.append('g')
+    .selectAll('text')
+    .data(visibleNodes.filter(n =>
+      n.id === HERO_NODE ||
+      n.type === 'paper' ||
+      (graph.adjacency[n.id]?.length || 0) > 15
+    ))
+    .join('text')
+    .text(d => d.label.length > 30 ? d.label.slice(0, 28) + '…' : d.label)
+    .attr('font-size', d => d.id === HERO_NODE ? 11 : d.type === 'paper' ? 7 : 8)
+    .attr('fill', d => d.id === HERO_NODE ? HERO_COLOR : COLORS[d.type])
+    .attr('opacity', 0.6)
+    .attr('dx', d => RADIUS[d.type] + 3)
+    .attr('dy', 3)
+    .attr('pointer-events', 'none');
+
+  // Simulation
+  simulation = d3.forceSimulation(visibleNodes)
+    .force('link', d3.forceLink(visibleEdges).id(d => d.id).distance(40).strength(0.3))
+    .force('charge', d3.forceManyBody().strength(-30).distanceMax(300))
+    .force('center', d3.forceCenter(width / 2, height / 2))
+    .force('collision', d3.forceCollide().radius(d => RADIUS[d.type] + 2))
+    .on('tick', () => {
+      linkElements
+        .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+      nodeElements
+        .attr('cx', d => d.x).attr('cy', d => d.y);
+      labelElements
+        .attr('x', d => d.x).attr('y', d => d.y);
+    });
+}
+
+function highlight(node) {
+  highlightedNode = node;
+  const neighbors = new Set([node.id]);
+  (graph.adjacency[node.id] || []).forEach(e => neighbors.add(e.target));
+
+  nodeElements
+    .attr('opacity', d => neighbors.has(d.id) ? 1 : 0.1);
+  linkElements
+    .attr('stroke', d => {
+      const sid = d.source.id || d.source;
+      const tid = d.target.id || d.target;
+      return (sid === node.id || tid === node.id) ? COLORS[node.type] : '#111';
+    })
+    .attr('stroke-width', d => {
+      const sid = d.source.id || d.source;
+      const tid = d.target.id || d.target;
+      return (sid === node.id || tid === node.id) ? 1.5 : 0.3;
+    });
+  labelElements
+    .attr('opacity', d => neighbors.has(d.id) ? 1 : 0.05);
+}
+
+function unhighlight() {
+  highlightedNode = null;
+  nodeElements.attr('opacity', 0.8);
+  linkElements.attr('stroke', '#222').attr('stroke-width', 0.5);
+  labelElements.attr('opacity', 0.6);
+}
+
+function showInfo(node) {
+  const panel = document.getElementById('info-panel');
+  document.getElementById('info-label').textContent = node.label;
+  const badge = document.getElementById('info-type');
+  badge.textContent = node.type;
+  badge.style.background = COLORS[node.type];
+
+  let html = '';
+
+  if (node.papers?.length) {
+    html += `<div class="section"><div class="section-title">Appears in ${node.papers.length} paper(s)</div><ul>`;
+    node.papers.forEach(p => {
+      html += `<li data-id="paper:${p.toLowerCase()}">${p}</li>`;
+    });
+    html += '</ul></div>';
+  }
+
+  const adj = graph.adjacency[node.id] || [];
+  const byRelation = {};
+  adj.forEach(e => {
+    (byRelation[e.relation] ||= []).push(e.target);
+  });
+
+  Object.entries(byRelation).forEach(([rel, targets]) => {
+    html += `<div class="section"><div class="section-title">${rel} (${targets.length})</div><ul>`;
+    targets.slice(0, 30).forEach(tid => {
+      const tn = graph.nodeMap[tid];
+      if (tn) {
+        html += `<li data-id="${tid}" style="color:${COLORS[tn.type]}">${tn.label}</li>`;
+      }
+    });
+    if (targets.length > 30) html += `<li>...and ${targets.length - 30} more</li>`;
+    html += '</ul></div>';
+  });
+
+  document.getElementById('info-body').innerHTML = html;
+  panel.classList.add('open');
+
+  // Click neighbors in panel to navigate
+  panel.querySelectorAll('li[data-id]').forEach(li => {
+    li.addEventListener('click', () => {
+      const target = graph.nodeMap[li.dataset.id];
+      if (target) {
+        showInfo(target);
+        highlight(target);
+        // Pan to node
+        const svg = d3.select('svg');
+        const transform = d3.zoomTransform(svg.node());
+        svg.transition().duration(500).call(
+          d3.zoom().transform,
+          d3.zoomIdentity.translate(
+            window.innerWidth / 2 - target.x * transform.k,
+            window.innerHeight / 2 - target.y * transform.k
+          ).scale(transform.k)
+        );
+      }
+    });
+  });
+}
+
+function setupControls() {
+  // Search
+  document.getElementById('search').addEventListener('input', (e) => {
+    const q = e.target.value.toLowerCase();
+    if (!q) {
+      nodeElements.attr('opacity', 0.8);
+      labelElements.attr('opacity', 0.6);
+      return;
+    }
+    nodeElements.attr('opacity', d =>
+      d.label.toLowerCase().includes(q) ? 1 : 0.08
+    );
+    labelElements.attr('opacity', d =>
+      d.label.toLowerCase().includes(q) ? 1 : 0.05
+    );
+  });
+
+  // Type toggles
+  document.querySelectorAll('#controls .toggle button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const type = btn.dataset.type;
+      if (activeTypes.has(type)) {
+        activeTypes.delete(type);
+        btn.classList.remove('active');
+      } else {
+        activeTypes.add(type);
+        btn.classList.add('active');
+      }
+      render();
+    });
+  });
+}
+
+function dragStart(event, d) {
+  if (!event.active) simulation.alphaTarget(0.3).restart();
+  d.fx = d.x; d.fy = d.y;
+}
+function dragging(event, d) { d.fx = event.x; d.fy = event.y; }
+function dragEnd(event, d) {
+  if (!event.active) simulation.alphaTarget(0);
+  d.fx = null; d.fy = null;
+}
+
+init();
+</script>
+</body>
+</html>
