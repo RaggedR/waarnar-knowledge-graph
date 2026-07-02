@@ -221,16 +221,6 @@
       ]
     },
     {
-      "id": "concept:domino tilings",
-      "label": "domino tilings",
-      "type": "concept",
-      "papers": [
-        "albion_proof_littlewood_lee-rains-warnaar",
-        "corteel_savelief_vuletic",
-        "lee_rains_warnaar_elliptic_branching"
-      ]
-    },
-    {
       "id": "concept:young diagrams",
       "label": "Young diagrams",
       "type": "concept",
@@ -262,15 +252,6 @@
         "li_uncu_macmahon_analysis_cylindric_partitions",
         "uncu_proofs_modulo11_13_cylindric_kanade_russell",
         "warnaar_A2_andrews_gordon"
-      ]
-    },
-    {
-      "id": "concept:pfaffian determinants",
-      "label": "Pfaffian determinants",
-      "type": "concept",
-      "papers": [
-        "albion_proof_littlewood_lee-rains-warnaar",
-        "lee_rains_warnaar_elliptic_branching"
       ]
     },
     {
@@ -506,18 +487,6 @@
       ]
     },
     {
-      "id": "concept:colored partitions",
-      "label": "colored partitions",
-      "type": "concept",
-      "papers": [
-        "ablinger_uncu_qfunctions_mathematica",
-        "butorac_lepowsky_wakimoto_cl_affine",
-        "kanade_russell_tight_cylindric_partitions",
-        "konan_systematic_schmidt_type",
-        "russell_companions_andrews_gordon"
-      ]
-    },
-    {
       "id": "concept:functional equations",
       "label": "functional equations",
       "type": "concept",
@@ -542,16 +511,6 @@
       ]
     },
     {
-      "id": "concept:pochhammer symbols",
-      "label": "Pochhammer symbols",
-      "type": "concept",
-      "papers": [
-        "ablinger_uncu_qfunctions_mathematica",
-        "larson_generalized_andrews-gordon",
-        "warnaar_affine_jacobi-trudi_identities"
-      ]
-    },
-    {
       "id": "concept:infinite products",
       "label": "infinite products",
       "type": "concept",
@@ -569,15 +528,6 @@
         "pascadi_product_identities_two_variable_rr",
         "waldron_bijective_approaches",
         "takigiku_tsuchioka_nandi_partition"
-      ]
-    },
-    {
-      "id": "concept:holonomic functions",
-      "label": "holonomic functions",
-      "type": "concept",
-      "papers": [
-        "ablinger_uncu_qfunctions_mathematica",
-        "corteel_dousse_uncu_cylindric_partitions_a2_rr"
       ]
     },
     {
@@ -643,15 +593,6 @@
       ]
     },
     {
-      "id": "concept:vertex operator algebras",
-      "label": "vertex operator algebras",
-      "type": "concept",
-      "papers": [
-        "baker_principal_subspaces_twisted_affine",
-        "warnaar_A2_andrews_gordon"
-      ]
-    },
-    {
       "id": "concept:bailey pairs",
       "label": "Bailey pairs",
       "type": "concept",
@@ -682,22 +623,6 @@
         "warnaar_a2_andrews_gordon_cylindric_partitions",
         "warnaar_affine_jacobi-trudi_identities",
         "warnaar_A2_andrews_gordon"
-      ]
-    },
-    {
-      "id": "concept:modular forms",
-      "label": "modular forms",
-      "type": "concept",
-      "papers": [
-        "baker_principal_subspaces_twisted_affine",
-        "bridges_uncu_weighted_cylindric_partitions",
-        "bridges_uncu_weighted_cylindric",
-        "bringmann_distributions_hilbert_hook",
-        "kanade_russell_completing_a2_andrews_schilling_warnaar",
-        "larson_generalized_andrews-gordon",
-        "stanton_rogers-ramanujan_cauchy",
-        "schlosser_bilateral_rogers_ramanujan",
-        "tsuchioka_vertex_operator_kanade_russell_mod9"
       ]
     },
     {
@@ -785,16 +710,6 @@
       ]
     },
     {
-      "id": "concept:kpz universality",
-      "label": "KPZ universality",
-      "type": "concept",
-      "papers": [
-        "betea_lpp_quarter_square_goe",
-        "barraquand_log-gamma_polymers",
-        "he_boundary_asep_six-vertex"
-      ]
-    },
-    {
       "id": "concept:gelfand-tsetlin patterns",
       "label": "Gelfand-Tsetlin patterns",
       "type": "concept",
@@ -861,34 +776,6 @@
       ]
     },
     {
-      "id": "concept:fomin growth diagrams",
-      "label": "Fomin growth diagrams",
-      "type": "concept",
-      "papers": [
-        "betea_lpp_quarter_square_goe",
-        "phd"
-      ]
-    },
-    {
-      "id": "concept:greene's theorem",
-      "label": "Greene's theorem",
-      "type": "concept",
-      "papers": [
-        "betea_lpp_quarter_square_goe",
-        "krattenthaler"
-      ]
-    },
-    {
-      "id": "concept:oscillating tableaux",
-      "label": "oscillating tableaux",
-      "type": "concept",
-      "papers": [
-        "betea_lpp_quarter_square_goe",
-        "huh_bounded_littlewood_cylindric",
-        "krattenthaler"
-      ]
-    },
-    {
       "id": "concept:cauchy identity",
       "label": "Cauchy identity",
       "type": "concept",
@@ -901,15 +788,6 @@
         "he_free_boundary_processes",
         "imamura_cauchy_q-whittaker_skew",
         "stanton_rogers-ramanujan_cauchy"
-      ]
-    },
-    {
-      "id": "concept:tracy-widom distribution",
-      "label": "Tracy-Widom distribution",
-      "type": "concept",
-      "papers": [
-        "betea_lpp_quarter_square_goe",
-        "barraquand_log-gamma_polymers"
       ]
     },
     {
@@ -968,15 +846,6 @@
       ]
     },
     {
-      "id": "concept:rank-level duality",
-      "label": "rank-level duality",
-      "type": "concept",
-      "papers": [
-        "barsakcci_weighted_words_cylindric_partitions",
-        "tingley"
-      ]
-    },
-    {
       "id": "concept:interlacing inequalities",
       "label": "interlacing inequalities",
       "type": "concept",
@@ -1017,17 +886,6 @@
         "kanade_russell_completing_a2_andrews_schilling_warnaar",
         "warnaar_affine_jacobi-trudi_identities",
         "warnaar_A2_andrews_gordon"
-      ]
-    },
-    {
-      "id": "concept:profile",
-      "label": "profile",
-      "type": "concept",
-      "papers": [
-        "barsakcci_weighted_words_cylindric_partitions",
-        "kanade_russell_tight_cylindric_partitions",
-        "kursungoz_cylindric_partitions_decomposition",
-        "kursungoz_seyrek_decomposition_cylindric_partitions"
       ]
     },
     {
@@ -1144,16 +1002,6 @@
       "papers": [
         "betea_wheeler_cauchy_littlewood_asm",
         "corteel_savelief_vuletic"
-      ]
-    },
-    {
-      "id": "concept:pfaffian",
-      "label": "Pfaffian",
-      "type": "concept",
-      "papers": [
-        "betea_wheeler_cauchy_littlewood_asm",
-        "gavrilova_refined_littlewood_spin-hl",
-        "fischer_littlewood_identities_fully"
       ]
     },
     {
@@ -1282,15 +1130,6 @@
       ]
     },
     {
-      "id": "concept:digamma function",
-      "label": "digamma function",
-      "type": "concept",
-      "papers": [
-        "barraquand_log-gamma_polymers",
-        "bringmann_distributions_hilbert_hook"
-      ]
-    },
-    {
       "id": "paper:albion_rains_warnaar_aflt_selberg",
       "label": "albion_rains_warnaar_aflt_selberg",
       "type": "paper",
@@ -1317,15 +1156,6 @@
       ]
     },
     {
-      "id": "concept:elliptic hypergeometric functions",
-      "label": "elliptic hypergeometric functions",
-      "type": "concept",
-      "papers": [
-        "albion_rains_warnaar_aflt_selberg",
-        "lee_rains_warnaar_elliptic_branching"
-      ]
-    },
-    {
       "id": "concept:elliptic interpolation functions",
       "label": "elliptic interpolation functions",
       "type": "concept",
@@ -1344,16 +1174,6 @@
         "masters",
         "zhou_q-morris_constant_term",
         "zhou_aflt_q-morris_identity"
-      ]
-    },
-    {
-      "id": "concept:elliptic gamma function",
-      "label": "elliptic gamma function",
-      "type": "concept",
-      "papers": [
-        "albion_rains_warnaar_aflt_selberg",
-        "bounded_littlewood",
-        "lee_rains_warnaar_elliptic_branching"
       ]
     },
     {
@@ -1377,34 +1197,6 @@
         "dousse_konan_capparelli_primc_crystals",
         "dousse_konan_multi-grounded_partitions",
         "kanade_remarks_capparelli_primc"
-      ]
-    },
-    {
-      "id": "concept:elliptic beta integral",
-      "label": "elliptic beta integral",
-      "type": "concept",
-      "papers": [
-        "albion_rains_warnaar_aflt_selberg",
-        "lee_rains_warnaar_elliptic_branching"
-      ]
-    },
-    {
-      "id": "concept:spectral vectors",
-      "label": "spectral vectors",
-      "type": "concept",
-      "papers": [
-        "albion_rains_warnaar_aflt_selberg",
-        "lascoux_pages_081_100"
-      ]
-    },
-    {
-      "id": "concept:vandermonde determinant",
-      "label": "Vandermonde determinant",
-      "type": "concept",
-      "papers": [
-        "albion_rains_warnaar_aflt_selberg",
-        "cuenca_interpolation_macdonald",
-        "lascoux_pages_021_040"
       ]
     },
     {
@@ -1614,49 +1406,6 @@
       ]
     },
     {
-      "id": "concept:weighted generating functions",
-      "label": "weighted generating functions",
-      "type": "concept",
-      "papers": [
-        "bridges_uncu_weighted_cylindric",
-        "konan_systematic_schmidt_type"
-      ]
-    },
-    {
-      "id": "concept:distinct-part partitions",
-      "label": "distinct-part partitions",
-      "type": "concept",
-      "papers": [
-        "bridges_uncu_weighted_cylindric",
-        "waldron_bijective_approaches"
-      ]
-    },
-    {
-      "id": "concept:creative telescoping",
-      "label": "creative telescoping",
-      "type": "concept",
-      "papers": [
-        "bridges_uncu_weighted_cylindric",
-        "corteel_dousse_uncu_cylindric_partitions_a2_rr",
-        "jimenez_pastor_factorial_basis",
-        "uncu_proofs_modulo11_13_cylindric_kanade_russell"
-      ]
-    },
-    {
-      "id": "concept:q-binomial theorem",
-      "label": "q-binomial theorem",
-      "type": "concept",
-      "papers": [
-        "bridges_uncu_weighted_cylindric",
-        "corteel_welsh_A2_RR",
-        "cohl_rogers_generating_function",
-        "imamura_cauchy_q-whittaker_skew",
-        "masters",
-        "schlosser_bilateral_rogers_ramanujan",
-        "zhou_q-morris_constant_term"
-      ]
-    },
-    {
       "id": "concept:borodin product formula",
       "label": "Borodin product formula",
       "type": "concept",
@@ -1704,15 +1453,6 @@
       ]
     },
     {
-      "id": "concept:kac-moody algebras",
-      "label": "Kac-Moody algebras",
-      "type": "concept",
-      "papers": [
-        "bartlett_warnaar_hall-littlewood_affine",
-        "griffin_ono_rogers-ramanujan_arithmetic"
-      ]
-    },
-    {
       "id": "concept:affine kac-moody algebras",
       "label": "affine Kac-Moody algebras",
       "type": "concept",
@@ -1746,40 +1486,6 @@
       ]
     },
     {
-      "id": "concept:q-hypergeometric functions",
-      "label": "q-hypergeometric functions",
-      "type": "concept",
-      "papers": [
-        "bartlett_warnaar_hall-littlewood_affine",
-        "li_uncu_macmahon_analysis_cylindric_partitions"
-      ]
-    },
-    {
-      "id": "concept:andrews-gordon identities",
-      "label": "Andrews-Gordon identities",
-      "type": "concept",
-      "papers": [
-        "bartlett_warnaar_hall-littlewood_affine",
-        "corteel_welsh_A2_RR",
-        "corteel_dousse_uncu_cylindric_partitions_a2_rr",
-        "foda_zhu_fermionic_macdonald_index",
-        "griffin_ono_rogers-ramanujan_arithmetic",
-        "kanade_remarks_capparelli_primc",
-        "kanade_russell_tight_cylindric_partitions",
-        "kanade_russell_completing_a2_andrews_schilling_warnaar",
-        "kursungoz_seyrek_combinatorial_constructions_cylindric",
-        "kanade_russell_tsuchioka_warnaar_capparelli_conjectures",
-        "larson_generalized_andrews-gordon",
-        "li_uncu_macmahon_analysis_cylindric_partitions",
-        "russell_companions_andrews_gordon",
-        "schlosser_bilateral_rogers_ramanujan",
-        "uncu_proofs_modulo11_13_cylindric_kanade_russell",
-        "warnaar_a2_andrews_gordon_cylindric_partitions",
-        "warnaar_affine_jacobi-trudi_identities",
-        "warnaar_A2_andrews_gordon"
-      ]
-    },
-    {
       "id": "concept:macdonald identities",
       "label": "Macdonald identities",
       "type": "concept",
@@ -1793,15 +1499,6 @@
       ]
     },
     {
-      "id": "concept:root systems",
-      "label": "root systems",
-      "type": "concept",
-      "papers": [
-        "bartlett_warnaar_hall-littlewood_affine",
-        "bounded_littlewood"
-      ]
-    },
-    {
       "id": "concept:dynkin diagrams",
       "label": "Dynkin diagrams",
       "type": "concept",
@@ -1812,25 +1509,6 @@
         "colmenarejo_c-functions_koornwinder",
         "kanade_remarks_capparelli_primc",
         "kanade_russell_tsuchioka_warnaar_capparelli_conjectures"
-      ]
-    },
-    {
-      "id": "concept:weyl group",
-      "label": "Weyl group",
-      "type": "concept",
-      "papers": [
-        "bartlett_warnaar_hall-littlewood_affine",
-        "lascoux_pages_061_080"
-      ]
-    },
-    {
-      "id": "concept:hyperoctahedral group",
-      "label": "hyperoctahedral group",
-      "type": "concept",
-      "papers": [
-        "bartlett_warnaar_hall-littlewood_affine",
-        "hoshino_shiraishi_koornwinder_branching",
-        "wheeler_zinn-justin_cauchy_littlewood_six-vertex"
       ]
     },
     {
@@ -1872,42 +1550,6 @@
       "papers": [
         "bringmann_distributions_hilbert_hook",
         "griffin_ono_rogers-ramanujan_arithmetic"
-      ]
-    },
-    {
-      "id": "concept:t-cores",
-      "label": "t-cores",
-      "type": "concept",
-      "papers": [
-        "bringmann_distributions_hilbert_hook",
-        "petreoll_nekrasov-okounkov_C-tilde"
-      ]
-    },
-    {
-      "id": "concept:dedekind eta function",
-      "label": "Dedekind eta function",
-      "type": "concept",
-      "papers": [
-        "bringmann_distributions_hilbert_hook",
-        "pascadi_product_identities_two_variable_rr"
-      ]
-    },
-    {
-      "id": "concept:nekrasov-okounkov formula",
-      "label": "Nekrasov-Okounkov formula",
-      "type": "concept",
-      "papers": [
-        "bringmann_distributions_hilbert_hook",
-        "petreoll_nekrasov-okounkov_C-tilde"
-      ]
-    },
-    {
-      "id": "concept:poincar\u00e9 polynomials",
-      "label": "Poincar\u00e9 polynomials",
-      "type": "concept",
-      "papers": [
-        "bringmann_distributions_hilbert_hook",
-        "lascoux_pages_001_020"
       ]
     },
     {
@@ -2023,16 +1665,6 @@
       ]
     },
     {
-      "id": "concept:principal specialization",
-      "label": "principal specialization",
-      "type": "concept",
-      "papers": [
-        "butorac_lepowsky_wakimoto_cl_affine",
-        "colmenarejo_c-functions_koornwinder",
-        "griffin_ono_rogers-ramanujan_arithmetic"
-      ]
-    },
-    {
       "id": "paper:corteel_welsh_a2_rr",
       "label": "corteel_welsh_A2_RR",
       "type": "paper",
@@ -2104,28 +1736,6 @@
       ]
     },
     {
-      "id": "concept:q-shifted factorials",
-      "label": "q-shifted factorials",
-      "type": "concept",
-      "papers": [
-        "bounded_littlewood",
-        "griffin_ono_rogers-ramanujan_arithmetic",
-        "schlosser_bilateral_rogers_ramanujan",
-        "xin_zhou_selberg_baker-forrester",
-        "zhou_q-morris_constant_term",
-        "warnaar_A2_andrews_gordon"
-      ]
-    },
-    {
-      "id": "concept:rogers-szego polynomials",
-      "label": "Rogers-Szego polynomials",
-      "type": "concept",
-      "papers": [
-        "bounded_littlewood",
-        "warnaar_affine_jacobi-trudi_identities"
-      ]
-    },
-    {
       "id": "concept:pieri rules",
       "label": "Pieri rules",
       "type": "concept",
@@ -2174,15 +1784,6 @@
         "dousse_konan_capparelli_primc_crystals",
         "griffin_ono_rogers-ramanujan_arithmetic",
         "kanade_remarks_capparelli_primc"
-      ]
-    },
-    {
-      "id": "concept:half-partitions",
-      "label": "half-partitions",
-      "type": "concept",
-      "papers": [
-        "bounded_littlewood",
-        "kanade_russell_tsuchioka_warnaar_capparelli_conjectures"
       ]
     },
     {
@@ -2289,15 +1890,6 @@
       ]
     },
     {
-      "id": "concept:orthogonality relations",
-      "label": "orthogonality relations",
-      "type": "concept",
-      "papers": [
-        "cohl_rogers_generating_function",
-        "colmenarejo_c-functions_koornwinder"
-      ]
-    },
-    {
       "id": "paper:colmenarejo_c-functions_koornwinder",
       "label": "colmenarejo_c-functions_koornwinder",
       "type": "paper",
@@ -2314,48 +1906,12 @@
       ]
     },
     {
-      "id": "concept:affine weyl group",
-      "label": "affine Weyl group",
-      "type": "concept",
-      "papers": [
-        "colmenarejo_c-functions_koornwinder",
-        "huh_bounded_littlewood_cylindric"
-      ]
-    },
-    {
       "id": "concept:affine root systems",
       "label": "affine root systems",
       "type": "concept",
       "papers": [
         "colmenarejo_c-functions_koornwinder",
         "warnaar_affine_jacobi-trudi_identities"
-      ]
-    },
-    {
-      "id": "concept:root lattice",
-      "label": "root lattice",
-      "type": "concept",
-      "papers": [
-        "colmenarejo_c-functions_koornwinder",
-        "tsuchioka_vertex_operator_kanade_russell_mod9"
-      ]
-    },
-    {
-      "id": "concept:poincar\u00e9 polynomial",
-      "label": "Poincar\u00e9 polynomial",
-      "type": "concept",
-      "papers": [
-        "colmenarejo_c-functions_koornwinder",
-        "lascoux_pages_061_080"
-      ]
-    },
-    {
-      "id": "concept:constant term",
-      "label": "constant term",
-      "type": "concept",
-      "papers": [
-        "colmenarejo_c-functions_koornwinder",
-        "zhou_q-morris_constant_term"
       ]
     },
     {
@@ -2376,24 +1932,6 @@
         "dousse_konan_multi-grounded_partitions",
         "russell_companions_andrews_gordon",
         "warnaar_A2_andrews_gordon"
-      ]
-    },
-    {
-      "id": "concept:a2 root system",
-      "label": "A2 root system",
-      "type": "concept",
-      "papers": [
-        "corteel_dousse_uncu_cylindric_partitions_a2_rr",
-        "warnaar_a2_andrews_gordon_cylindric_partitions"
-      ]
-    },
-    {
-      "id": "concept:profiles",
-      "label": "profiles",
-      "type": "concept",
-      "papers": [
-        "corteel_dousse_uncu_cylindric_partitions_a2_rr",
-        "uncu_proofs_modulo11_13_cylindric_kanade_russell"
       ]
     },
     {
@@ -2462,24 +2000,6 @@
       ]
     },
     {
-      "id": "concept:pfaffian formula",
-      "label": "Pfaffian formula",
-      "type": "concept",
-      "papers": [
-        "corteel_savelief_vuletic",
-        "hopkins_lai_plane_partitions_shifted"
-      ]
-    },
-    {
-      "id": "concept:determinantal formula",
-      "label": "determinantal formula",
-      "type": "concept",
-      "papers": [
-        "corteel_savelief_vuletic",
-        "hopkins_lai_plane_partitions_shifted"
-      ]
-    },
-    {
       "id": "result:theorem 6",
       "label": "Theorem 6",
       "type": "result",
@@ -2539,26 +2059,6 @@
       ]
     },
     {
-      "id": "concept:coloured partitions",
-      "label": "coloured partitions",
-      "type": "concept",
-      "papers": [
-        "dousse_konan_capparelli_primc_crystals",
-        "dousse_konan_multi-grounded_partitions",
-        "kanade_remarks_capparelli_primc",
-        "kanade_russell_tsuchioka_warnaar_capparelli_conjectures"
-      ]
-    },
-    {
-      "id": "concept:difference conditions",
-      "label": "difference conditions",
-      "type": "concept",
-      "papers": [
-        "dousse_konan_capparelli_primc_crystals",
-        "takigiku_tsuchioka_nandi_partition"
-      ]
-    },
-    {
       "id": "concept:grounded partitions",
       "label": "grounded partitions",
       "type": "concept",
@@ -2574,25 +2074,6 @@
       "papers": [
         "dousse_konan_capparelli_primc_crystals",
         "kanade_russell_tight_cylindric_partitions"
-      ]
-    },
-    {
-      "id": "concept:weight lattice",
-      "label": "weight lattice",
-      "type": "concept",
-      "papers": [
-        "dousse_konan_capparelli_primc_crystals",
-        "dousse_konan_multi-grounded_partitions",
-        "tingley"
-      ]
-    },
-    {
-      "id": "concept:fundamental weights",
-      "label": "fundamental weights",
-      "type": "concept",
-      "papers": [
-        "dousse_konan_capparelli_primc_crystals",
-        "kanade_remarks_capparelli_primc"
       ]
     },
     {
@@ -2734,49 +2215,12 @@
       ]
     },
     {
-      "id": "concept:l-operators",
-      "label": "L-operators",
-      "type": "concept",
-      "papers": [
-        "gavrilova_refined_littlewood_spin-hl",
-        "wheeler_zinn-justin_cauchy_littlewood_six-vertex"
-      ]
-    },
-    {
-      "id": "concept:fock space",
-      "label": "Fock space",
-      "type": "concept",
-      "papers": [
-        "gavrilova_refined_littlewood_spin-hl",
-        "wheeler_zinn-justin_cauchy_littlewood_six-vertex"
-      ]
-    },
-    {
       "id": "concept:partition function",
       "label": "partition function",
       "type": "concept",
       "papers": [
         "gavrilova_refined_littlewood_spin-hl",
         "he_boundary_asep_six-vertex"
-      ]
-    },
-    {
-      "id": "concept:lagrange interpolation",
-      "label": "Lagrange interpolation",
-      "type": "concept",
-      "papers": [
-        "gavrilova_refined_littlewood_spin-hl",
-        "wheeler_zinn-justin_cauchy_littlewood_six-vertex"
-      ]
-    },
-    {
-      "id": "concept:integrable probability",
-      "label": "integrable probability",
-      "type": "concept",
-      "papers": [
-        "gavrilova_refined_littlewood_spin-hl",
-        "he_free_boundary_processes",
-        "imamura_cauchy_q-whittaker_skew"
       ]
     },
     {
@@ -2831,15 +2275,6 @@
       "papers": [
         "fischer_bounded_littlewood_asm",
         "fischer_littlewood_identities_fully"
-      ]
-    },
-    {
-      "id": "concept:shift operators",
-      "label": "shift operators",
-      "type": "concept",
-      "papers": [
-        "fischer_bounded_littlewood_asm",
-        "takigiku_tsuchioka_nandi_partition"
       ]
     },
     {
@@ -2961,24 +2396,6 @@
       ]
     },
     {
-      "id": "concept:monomial symmetric polynomials",
-      "label": "monomial symmetric polynomials",
-      "type": "concept",
-      "papers": [
-        "cuenca_interpolation_macdonald",
-        "hoshino_shiraishi_koornwinder_branching"
-      ]
-    },
-    {
-      "id": "concept:macdonald inner product",
-      "label": "Macdonald inner product",
-      "type": "concept",
-      "papers": [
-        "cuenca_interpolation_macdonald",
-        "phd"
-      ]
-    },
-    {
       "id": "concept:vertical strips",
       "label": "vertical strips",
       "type": "concept",
@@ -3012,15 +2429,6 @@
       "type": "author",
       "papers": [
         "foda_zhu_fermionic_macdonald_index"
-      ]
-    },
-    {
-      "id": "concept:w-algebras",
-      "label": "W-algebras",
-      "type": "concept",
-      "papers": [
-        "foda_zhu_fermionic_macdonald_index",
-        "warnaar_a2_andrews_gordon_cylindric_partitions"
       ]
     },
     {
@@ -3082,15 +2490,6 @@
       ]
     },
     {
-      "id": "concept:skew rsk correspondence",
-      "label": "skew RSK correspondence",
-      "type": "concept",
-      "papers": [
-        "he_boundary_asep_six-vertex",
-        "imamura_skew_rsk_dynamics"
-      ]
-    },
-    {
       "id": "concept:plethystic substitution",
       "label": "plethystic substitution",
       "type": "concept",
@@ -3124,15 +2523,6 @@
       ]
     },
     {
-      "id": "concept:nonintersecting lattice paths",
-      "label": "nonintersecting lattice paths",
-      "type": "concept",
-      "papers": [
-        "hopkins_lai_plane_partitions_shifted",
-        "huh_bounded_littlewood_cylindric"
-      ]
-    },
-    {
       "id": "paper:jimenez_pastor_factorial_basis",
       "label": "jimenez_pastor_factorial_basis",
       "type": "paper",
@@ -3146,24 +2536,6 @@
       "type": "author",
       "papers": [
         "jimenez_pastor_factorial_basis"
-      ]
-    },
-    {
-      "id": "concept:q-holonomic functions",
-      "label": "q-holonomic functions",
-      "type": "concept",
-      "papers": [
-        "jimenez_pastor_factorial_basis",
-        "kilic_kursungoz_functional_equations_andrews_gordon"
-      ]
-    },
-    {
-      "id": "concept:bilateral sums",
-      "label": "bilateral sums",
-      "type": "concept",
-      "papers": [
-        "jimenez_pastor_factorial_basis",
-        "li_uncu_macmahon_analysis_cylindric_partitions"
       ]
     },
     {
@@ -3207,16 +2579,6 @@
       ]
     },
     {
-      "id": "concept:partition functions",
-      "label": "partition functions",
-      "type": "concept",
-      "papers": [
-        "he_free_boundary_processes",
-        "griffin_ono_rogers-ramanujan_arithmetic",
-        "wheeler_zinn-justin_cauchy_littlewood_six-vertex"
-      ]
-    },
-    {
       "id": "paper:griffin_ono_rogers-ramanujan_arithmetic",
       "label": "griffin_ono_rogers-ramanujan_arithmetic",
       "type": "paper",
@@ -3230,24 +2592,6 @@
       "type": "author",
       "papers": [
         "griffin_ono_rogers-ramanujan_arithmetic"
-      ]
-    },
-    {
-      "id": "concept:siegel functions",
-      "label": "Siegel functions",
-      "type": "concept",
-      "papers": [
-        "griffin_ono_rogers-ramanujan_arithmetic",
-        "larson_modular_units_rogers-ramanujan"
-      ]
-    },
-    {
-      "id": "concept:hypergeometric functions",
-      "label": "hypergeometric functions",
-      "type": "concept",
-      "papers": [
-        "griffin_ono_rogers-ramanujan_arithmetic",
-        "schlosser_bilateral_rogers_ramanujan"
       ]
     },
     {
@@ -3277,15 +2621,6 @@
       ]
     },
     {
-      "id": "concept:branching rules",
-      "label": "branching rules",
-      "type": "concept",
-      "papers": [
-        "hoshino_shiraishi_koornwinder_branching",
-        "lee_rains_warnaar_elliptic_branching"
-      ]
-    },
-    {
       "id": "concept:kostka polynomials",
       "label": "Kostka polynomials",
       "type": "concept",
@@ -3300,15 +2635,6 @@
       "type": "paper",
       "papers": [
         "imamura_skew_rsk_dynamics"
-      ]
-    },
-    {
-      "id": "concept:cylindric tableaux",
-      "label": "cylindric tableaux",
-      "type": "concept",
-      "papers": [
-        "imamura_skew_rsk_dynamics",
-        "warnaar_affine_jacobi-trudi_identities"
       ]
     },
     {
@@ -3334,52 +2660,6 @@
       "papers": [
         "huh_bounded_littlewood_cylindric",
         "warnaar_affine_jacobi-trudi_identities"
-      ]
-    },
-    {
-      "id": "concept:pfaffians",
-      "label": "Pfaffians",
-      "type": "concept",
-      "papers": [
-        "huh_bounded_littlewood_cylindric",
-        "wheeler_zinn-justin_cauchy_littlewood_six-vertex"
-      ]
-    },
-    {
-      "id": "concept:vacillating tableaux",
-      "label": "vacillating tableaux",
-      "type": "concept",
-      "papers": [
-        "huh_bounded_littlewood_cylindric",
-        "krattenthaler"
-      ]
-    },
-    {
-      "id": "concept:growth diagrams",
-      "label": "growth diagrams",
-      "type": "concept",
-      "papers": [
-        "huh_bounded_littlewood_cylindric",
-        "krattenthaler"
-      ]
-    },
-    {
-      "id": "concept:skew shapes",
-      "label": "skew shapes",
-      "type": "concept",
-      "papers": [
-        "huh_bounded_littlewood_cylindric",
-        "warnaar_a2_andrews_gordon_cylindric_partitions"
-      ]
-    },
-    {
-      "id": "concept:elementary symmetric functions",
-      "label": "elementary symmetric functions",
-      "type": "concept",
-      "papers": [
-        "huh_bounded_littlewood_cylindric",
-        "masters",
-        "zhou_q-morris_constant_term"
       ]
     },
     {
@@ -3454,15 +2734,6 @@
         "kanade_remarks_capparelli_primc",
         "kanade_russell_tsuchioka_warnaar_capparelli_conjectures",
         "russell_companions_andrews_gordon"
-      ]
-    },
-    {
-      "id": "concept:rogers-selberg equations",
-      "label": "Rogers-Selberg equations",
-      "type": "concept",
-      "papers": [
-        "kanade_remarks_capparelli_primc",
-        "kanade_russell_tsuchioka_warnaar_capparelli_conjectures"
       ]
     },
     {
@@ -3562,15 +2833,6 @@
       ]
     },
     {
-      "id": "concept:inclusion-exclusion",
-      "label": "inclusion-exclusion",
-      "type": "concept",
-      "papers": [
-        "kanade_russell_tight_cylindric_partitions",
-        "kilic_kursungoz_functional_equations_andrews_gordon"
-      ]
-    },
-    {
       "id": "result:theorem 5.2",
       "label": "Theorem 5.2",
       "type": "result",
@@ -3585,16 +2847,6 @@
       "type": "paper",
       "papers": [
         "kanade_russell_completing_a2_andrews_schilling_warnaar"
-      ]
-    },
-    {
-      "id": "concept:partition theory",
-      "label": "partition theory",
-      "type": "concept",
-      "papers": [
-        "kanade_russell_completing_a2_andrews_schilling_warnaar",
-        "schlosser_bilateral_rogers_ramanujan",
-        "warnaar_a2_andrews_gordon_cylindric_partitions"
       ]
     },
     {
@@ -3660,15 +2912,6 @@
       ]
     },
     {
-      "id": "concept:hasse diagram",
-      "label": "Hasse diagram",
-      "type": "concept",
-      "papers": [
-        "kursungoz_cylindric_partitions_decomposition",
-        "lascoux_pages_061_080"
-      ]
-    },
-    {
       "id": "concept:tight packing",
       "label": "tight packing",
       "type": "concept",
@@ -3719,15 +2962,6 @@
       "type": "paper",
       "papers": [
         "konan_systematic_schmidt_type"
-      ]
-    },
-    {
-      "id": "concept:symmetric group",
-      "label": "symmetric group",
-      "type": "concept",
-      "papers": [
-        "konan_systematic_schmidt_type",
-        "lascoux_pages_021_040"
       ]
     },
     {
@@ -3792,25 +3026,6 @@
       ]
     },
     {
-      "id": "concept:skew diagrams",
-      "label": "skew diagrams",
-      "type": "concept",
-      "papers": [
-        "kursungoz_decomposition_cylindric",
-        "zhou_aflt_q-morris_identity"
-      ]
-    },
-    {
-      "id": "concept:rsk correspondence",
-      "label": "RSK correspondence",
-      "type": "concept",
-      "papers": [
-        "kursungoz_decomposition_cylindric",
-        "krattenthaler",
-        "phd"
-      ]
-    },
-    {
       "id": "paper:kursungoz_seyrek_decomposition_cylindric_partitions",
       "label": "kursungoz_seyrek_decomposition_cylindric_partitions",
       "type": "paper",
@@ -3824,15 +3039,6 @@
       "type": "author",
       "papers": [
         "kursungoz_seyrek_decomposition_cylindric_partitions"
-      ]
-    },
-    {
-      "id": "concept:corteel-welsh equations",
-      "label": "Corteel-Welsh equations",
-      "type": "concept",
-      "papers": [
-        "kursungoz_seyrek_decomposition_cylindric_partitions",
-        "russell_companions_andrews_gordon"
       ]
     },
     {
@@ -3867,16 +3073,6 @@
       "papers": [
         "larson_generalized_andrews-gordon",
         "larson_modular_units_rogers-ramanujan"
-      ]
-    },
-    {
-      "id": "concept:bressoud identities",
-      "label": "Bressoud identities",
-      "type": "concept",
-      "papers": [
-        "larson_generalized_andrews-gordon",
-        "li_uncu_macmahon_analysis_cylindric_partitions",
-        "warnaar_A2_andrews_gordon"
       ]
     },
     {
@@ -4017,15 +3213,6 @@
       ]
     },
     {
-      "id": "concept:weyl groups",
-      "label": "Weyl groups",
-      "type": "concept",
-      "papers": [
-        "lascoux_pages_001_020",
-        "lascoux_pages_041_060"
-      ]
-    },
-    {
       "id": "concept:permutations",
       "label": "permutations",
       "type": "concept",
@@ -4070,24 +3257,6 @@
       "papers": [
         "lascoux_pages_001_020",
         "lascoux_pages_081_100"
-      ]
-    },
-    {
-      "id": "concept:dominant monomials",
-      "label": "dominant monomials",
-      "type": "concept",
-      "papers": [
-        "lascoux_pages_001_020",
-        "lascoux_pages_081_100"
-      ]
-    },
-    {
-      "id": "concept:commutation lemma",
-      "label": "commutation lemma",
-      "type": "concept",
-      "papers": [
-        "lascoux_pages_001_020",
-        "lascoux_pages_021_040"
       ]
     },
     {
@@ -4137,15 +3306,6 @@
       ]
     },
     {
-      "id": "concept:vexillary codes",
-      "label": "vexillary codes",
-      "type": "concept",
-      "papers": [
-        "lascoux_pages_141_160",
-        "lascoux_pages_121_140"
-      ]
-    },
-    {
       "id": "paper:lascoux_pages_041_060",
       "label": "lascoux_pages_041_060",
       "type": "paper",
@@ -4154,29 +3314,11 @@
       ]
     },
     {
-      "id": "concept:bruhat order",
-      "label": "Bruhat order",
-      "type": "concept",
-      "papers": [
-        "lascoux_pages_041_060",
-        "lascoux_pages_061_080"
-      ]
-    },
-    {
       "id": "paper:lascoux_pages_021_040",
       "label": "lascoux_pages_021_040",
       "type": "paper",
       "papers": [
         "lascoux_pages_021_040"
-      ]
-    },
-    {
-      "id": "concept:grassmannian schubert polynomials",
-      "label": "Grassmannian Schubert polynomials",
-      "type": "concept",
-      "papers": [
-        "lascoux_pages_021_040",
-        "lascoux_pages_081_100"
       ]
     },
     {
@@ -4197,15 +3339,6 @@
       ]
     },
     {
-      "id": "concept:scalar products",
-      "label": "scalar products",
-      "type": "concept",
-      "papers": [
-        "lascoux_pages_081_100",
-        "lascoux_pages_061_080"
-      ]
-    },
-    {
       "id": "paper:lascoux_pages_061_080",
       "label": "lascoux_pages_061_080",
       "type": "paper",
@@ -4222,62 +3355,11 @@
       ]
     },
     {
-      "id": "concept:monk formula",
-      "label": "Monk formula",
-      "type": "concept",
-      "papers": [
-        "lascoux_pages_101_120",
-        "lascoux_pages_121_140"
-      ]
-    },
-    {
-      "id": "concept:complete symmetric functions",
-      "label": "complete symmetric functions",
-      "type": "concept",
-      "papers": [
-        "lascoux_pages_101_120",
-        "masters",
-        "xin_zhou_selberg_baker-forrester",
-        "zhou_q-morris_constant_term",
-        "zhou_aflt_q-morris_identity"
-      ]
-    },
-    {
-      "id": "concept:bruhat interval",
-      "label": "Bruhat interval",
-      "type": "concept",
-      "papers": [
-        "lascoux_pages_101_120",
-        "lascoux_pages_121_140"
-      ]
-    },
-    {
-      "id": "concept:branching rule",
-      "label": "branching rule",
-      "type": "concept",
-      "papers": [
-        "lascoux_pages_101_120",
-        "xin_zhou_selberg_baker-forrester",
-        "zhou_aflt_q-morris_identity"
-      ]
-    },
-    {
       "id": "paper:lascoux_pages_121_140",
       "label": "lascoux_pages_121_140",
       "type": "paper",
       "papers": [
         "lascoux_pages_121_140"
-      ]
-    },
-    {
-      "id": "concept:pieri formula",
-      "label": "Pieri formula",
-      "type": "concept",
-      "papers": [
-        "lascoux_pages_121_140",
-        "masters",
-        "xin_zhou_selberg_baker-forrester",
-        "zhou_aflt_q-morris_identity"
       ]
     },
     {
@@ -4310,16 +3392,6 @@
       "type": "author",
       "papers": [
         "petreoll_nekrasov-okounkov_C-tilde"
-      ]
-    },
-    {
-      "id": "concept:integer partitions",
-      "label": "integer partitions",
-      "type": "concept",
-      "papers": [
-        "petreoll_nekrasov-okounkov_C-tilde",
-        "russell_companions_andrews_gordon",
-        "phd"
       ]
     },
     {
@@ -4380,15 +3452,6 @@
       "type": "author",
       "papers": [
         "russell_companions_andrews_gordon"
-      ]
-    },
-    {
-      "id": "concept:gordon's partition theorem",
-      "label": "Gordon's partition theorem",
-      "type": "concept",
-      "papers": [
-        "russell_companions_andrews_gordon",
-        "uncu_proofs_modulo11_13_cylindric_kanade_russell"
       ]
     },
     {
@@ -4655,29 +3718,11 @@
       ]
     },
     {
-      "id": "concept:slater identities",
-      "label": "Slater identities",
-      "type": "concept",
-      "papers": [
-        "schlosser_bilateral_rogers_ramanujan",
-        "takigiku_tsuchioka_nandi_partition"
-      ]
-    },
-    {
       "id": "paper:tsuchioka_vertex_operator_kanade_russell_mod9",
       "label": "tsuchioka_vertex_operator_kanade_russell_mod9",
       "type": "paper",
       "papers": [
         "tsuchioka_vertex_operator_kanade_russell_mod9"
-      ]
-    },
-    {
-      "id": "concept:kanade-russell conjecture",
-      "label": "Kanade-Russell conjecture",
-      "type": "concept",
-      "papers": [
-        "tsuchioka_vertex_operator_kanade_russell_mod9",
-        "uncu_proofs_modulo11_13_cylindric_kanade_russell"
       ]
     },
     {
@@ -4759,15 +3804,6 @@
       ]
     },
     {
-      "id": "concept:q-binomial coefficient",
-      "label": "q-binomial coefficient",
-      "type": "concept",
-      "papers": [
-        "waldron_bijective_approaches",
-        "zhou_aflt_q-morris_identity"
-      ]
-    },
-    {
       "id": "paper:takigiku_tsuchioka_nandi_partition",
       "label": "takigiku_tsuchioka_nandi_partition",
       "type": "paper",
@@ -4792,15 +3828,6 @@
       ]
     },
     {
-      "id": "concept:q-binomial identities",
-      "label": "q-binomial identities",
-      "type": "concept",
-      "papers": [
-        "takigiku_tsuchioka_nandi_partition",
-        "warnaar_a2_andrews_gordon_cylindric_partitions"
-      ]
-    },
-    {
       "id": "paper:uncu_proofs_modulo11_13_cylindric_kanade_russell",
       "label": "uncu_proofs_modulo11_13_cylindric_kanade_russell",
       "type": "paper",
@@ -4814,15 +3841,6 @@
       "type": "paper",
       "papers": [
         "warnaar_a2_andrews_gordon_cylindric_partitions"
-      ]
-    },
-    {
-      "id": "concept:bailey chains",
-      "label": "Bailey chains",
-      "type": "concept",
-      "papers": [
-        "warnaar_a2_andrews_gordon_cylindric_partitions",
-        "warnaar_A2_andrews_gordon"
       ]
     },
     {
@@ -4921,47 +3939,11 @@
       ]
     },
     {
-      "id": "concept:q,t-hall scalar product",
-      "label": "q,t-Hall scalar product",
-      "type": "concept",
-      "papers": [
-        "xin_zhou_selberg_baker-forrester",
-        "zhou_aflt_q-morris_identity"
-      ]
-    },
-    {
       "id": "paper:zhou_q-morris_constant_term",
       "label": "zhou_q-morris_constant_term",
       "type": "paper",
       "papers": [
         "zhou_q-morris_constant_term"
-      ]
-    },
-    {
-      "id": "concept:q-morris constant term identity",
-      "label": "q-Morris constant term identity",
-      "type": "concept",
-      "papers": [
-        "zhou_q-morris_constant_term",
-        "zhou_aflt_q-morris_identity"
-      ]
-    },
-    {
-      "id": "concept:modified complete symmetric functions",
-      "label": "modified complete symmetric functions",
-      "type": "concept",
-      "papers": [
-        "zhou_q-morris_constant_term",
-        "zhou_aflt_q-morris_identity"
-      ]
-    },
-    {
-      "id": "concept:dominance order",
-      "label": "dominance order",
-      "type": "concept",
-      "papers": [
-        "zhou_q-morris_constant_term",
-        "zhou_aflt_q-morris_identity"
       ]
     },
     {
@@ -5063,22 +4045,12 @@
     },
     {
       "source": "paper:albion_proof_littlewood_lee-rains-warnaar",
-      "target": "concept:domino tilings",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:albion_proof_littlewood_lee-rains-warnaar",
       "target": "concept:young diagrams",
       "relation": "discusses"
     },
     {
       "source": "paper:albion_proof_littlewood_lee-rains-warnaar",
       "target": "concept:q-binomial coefficients",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:albion_proof_littlewood_lee-rains-warnaar",
-      "target": "concept:pfaffian determinants",
       "relation": "discusses"
     },
     {
@@ -5198,11 +4170,6 @@
     },
     {
       "source": "paper:ablinger_uncu_qfunctions_mathematica",
-      "target": "concept:colored partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:ablinger_uncu_qfunctions_mathematica",
       "target": "concept:functional equations",
       "relation": "discusses"
     },
@@ -5213,17 +4180,7 @@
     },
     {
       "source": "paper:ablinger_uncu_qfunctions_mathematica",
-      "target": "concept:pochhammer symbols",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:ablinger_uncu_qfunctions_mathematica",
       "target": "concept:infinite products",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:ablinger_uncu_qfunctions_mathematica",
-      "target": "concept:holonomic functions",
       "relation": "discusses"
     },
     {
@@ -5278,11 +4235,6 @@
     },
     {
       "source": "paper:baker_principal_subspaces_twisted_affine",
-      "target": "concept:vertex operator algebras",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:baker_principal_subspaces_twisted_affine",
       "target": "concept:cylindric partitions",
       "relation": "discusses"
     },
@@ -5294,11 +4246,6 @@
     {
       "source": "paper:baker_principal_subspaces_twisted_affine",
       "target": "concept:theta functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:baker_principal_subspaces_twisted_affine",
-      "target": "concept:modular forms",
       "relation": "discusses"
     },
     {
@@ -5378,11 +4325,6 @@
     },
     {
       "source": "paper:betea_lpp_quarter_square_goe",
-      "target": "concept:kpz universality",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:betea_lpp_quarter_square_goe",
       "target": "concept:gelfand-tsetlin patterns",
       "relation": "discusses"
     },
@@ -5418,32 +4360,12 @@
     },
     {
       "source": "paper:betea_lpp_quarter_square_goe",
-      "target": "concept:fomin growth diagrams",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:betea_lpp_quarter_square_goe",
-      "target": "concept:greene's theorem",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:betea_lpp_quarter_square_goe",
       "target": "concept:littlewood identities",
       "relation": "discusses"
     },
     {
       "source": "paper:betea_lpp_quarter_square_goe",
-      "target": "concept:oscillating tableaux",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:betea_lpp_quarter_square_goe",
       "target": "concept:cauchy identity",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:betea_lpp_quarter_square_goe",
-      "target": "concept:tracy-widom distribution",
       "relation": "discusses"
     },
     {
@@ -5513,11 +4435,6 @@
     },
     {
       "source": "paper:barsakcci_weighted_words_cylindric_partitions",
-      "target": "concept:rank-level duality",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:barsakcci_weighted_words_cylindric_partitions",
       "target": "concept:interlacing inequalities",
       "relation": "discusses"
     },
@@ -5544,11 +4461,6 @@
     {
       "source": "paper:barsakcci_weighted_words_cylindric_partitions",
       "target": "concept:partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:barsakcci_weighted_words_cylindric_partitions",
-      "target": "concept:profile",
       "relation": "discusses"
     },
     {
@@ -5678,11 +4590,6 @@
     },
     {
       "source": "paper:betea_wheeler_cauchy_littlewood_asm",
-      "target": "concept:pfaffian",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:betea_wheeler_cauchy_littlewood_asm",
       "target": "concept:weyl character formula",
       "relation": "discusses"
     },
@@ -5778,22 +4685,7 @@
     },
     {
       "source": "paper:barraquand_log-gamma_polymers",
-      "target": "concept:tracy-widom distribution",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:barraquand_log-gamma_polymers",
       "target": "concept:fredholm determinants",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:barraquand_log-gamma_polymers",
-      "target": "concept:digamma function",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:barraquand_log-gamma_polymers",
-      "target": "concept:kpz universality",
       "relation": "discusses"
     },
     {
@@ -5833,11 +4725,6 @@
     },
     {
       "source": "paper:albion_rains_warnaar_aflt_selberg",
-      "target": "concept:elliptic hypergeometric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:albion_rains_warnaar_aflt_selberg",
       "target": "concept:elliptic interpolation functions",
       "relation": "discusses"
     },
@@ -5853,11 +4740,6 @@
     },
     {
       "source": "paper:albion_rains_warnaar_aflt_selberg",
-      "target": "concept:elliptic gamma function",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:albion_rains_warnaar_aflt_selberg",
       "target": "concept:cauchy identity",
       "relation": "discusses"
     },
@@ -5869,21 +4751,6 @@
     {
       "source": "paper:albion_rains_warnaar_aflt_selberg",
       "target": "concept:principal specialisation",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:albion_rains_warnaar_aflt_selberg",
-      "target": "concept:elliptic beta integral",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:albion_rains_warnaar_aflt_selberg",
-      "target": "concept:spectral vectors",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:albion_rains_warnaar_aflt_selberg",
-      "target": "concept:vandermonde determinant",
       "relation": "discusses"
     },
     {
@@ -5970,11 +4837,6 @@
       "source": "result:theorem 1.3",
       "target": "result:theorem 5.6",
       "relation": "specialises_to"
-    },
-    {
-      "source": "result:theorem 1.2",
-      "target": "concept:spectral vectors",
-      "relation": "uses"
     },
     {
       "source": "author:bisi",
@@ -6087,11 +4949,6 @@
       "relation": "discusses"
     },
     {
-      "source": "paper:bridges_uncu_weighted_cylindric_partitions",
-      "target": "concept:modular forms",
-      "relation": "discusses"
-    },
-    {
       "source": "concept:symmetric cylindric partitions",
       "target": "concept:skew double shifted plane partitions",
       "relation": "related_to"
@@ -6114,11 +4971,6 @@
     {
       "source": "paper:bridges_uncu_weighted_cylindric",
       "target": "concept:skew double shifted plane partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bridges_uncu_weighted_cylindric",
-      "target": "concept:weighted generating functions",
       "relation": "discusses"
     },
     {
@@ -6149,26 +5001,6 @@
     {
       "source": "paper:bridges_uncu_weighted_cylindric",
       "target": "concept:hook lengths",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bridges_uncu_weighted_cylindric",
-      "target": "concept:distinct-part partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bridges_uncu_weighted_cylindric",
-      "target": "concept:modular forms",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bridges_uncu_weighted_cylindric",
-      "target": "concept:creative telescoping",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bridges_uncu_weighted_cylindric",
-      "target": "concept:q-binomial theorem",
       "relation": "discusses"
     },
     {
@@ -6208,11 +5040,6 @@
     },
     {
       "source": "paper:bartlett_warnaar_hall-littlewood_affine",
-      "target": "concept:kac-moody algebras",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bartlett_warnaar_hall-littlewood_affine",
       "target": "concept:affine kac-moody algebras",
       "relation": "discusses"
     },
@@ -6238,22 +5065,12 @@
     },
     {
       "source": "paper:bartlett_warnaar_hall-littlewood_affine",
-      "target": "concept:q-hypergeometric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bartlett_warnaar_hall-littlewood_affine",
       "target": "concept:basic hypergeometric series",
       "relation": "discusses"
     },
     {
       "source": "paper:bartlett_warnaar_hall-littlewood_affine",
       "target": "concept:rogers-ramanujan identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bartlett_warnaar_hall-littlewood_affine",
-      "target": "concept:andrews-gordon identities",
       "relation": "discusses"
     },
     {
@@ -6288,22 +5105,7 @@
     },
     {
       "source": "paper:bartlett_warnaar_hall-littlewood_affine",
-      "target": "concept:root systems",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bartlett_warnaar_hall-littlewood_affine",
       "target": "concept:dynkin diagrams",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bartlett_warnaar_hall-littlewood_affine",
-      "target": "concept:weyl group",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bartlett_warnaar_hall-littlewood_affine",
-      "target": "concept:hyperoctahedral group",
       "relation": "discusses"
     },
     {
@@ -6373,42 +5175,12 @@
     },
     {
       "source": "paper:bringmann_distributions_hilbert_hook",
-      "target": "concept:t-cores",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bringmann_distributions_hilbert_hook",
-      "target": "concept:modular forms",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bringmann_distributions_hilbert_hook",
-      "target": "concept:dedekind eta function",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bringmann_distributions_hilbert_hook",
-      "target": "concept:nekrasov-okounkov formula",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bringmann_distributions_hilbert_hook",
-      "target": "concept:poincar\u00e9 polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bringmann_distributions_hilbert_hook",
       "target": "concept:generating functions",
       "relation": "discusses"
     },
     {
       "source": "paper:bringmann_distributions_hilbert_hook",
       "target": "concept:theta functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bringmann_distributions_hilbert_hook",
-      "target": "concept:digamma function",
       "relation": "discusses"
     },
     {
@@ -6440,11 +5212,6 @@
       "source": "result:theorem 1",
       "target": "result:theorem 4",
       "relation": "is_used_by"
-    },
-    {
-      "source": "concept:dedekind eta function",
-      "target": "result:theorem 1",
-      "relation": "related_to"
     },
     {
       "source": "result:theorem 2",
@@ -6488,11 +5255,6 @@
     },
     {
       "source": "paper:butorac_lepowsky_wakimoto_cl_affine",
-      "target": "concept:colored partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:butorac_lepowsky_wakimoto_cl_affine",
       "target": "concept:weyl-kac character formula",
       "relation": "discusses"
     },
@@ -6529,11 +5291,6 @@
     {
       "source": "paper:butorac_lepowsky_wakimoto_cl_affine",
       "target": "concept:admissible partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:butorac_lepowsky_wakimoto_cl_affine",
-      "target": "concept:principal specialization",
       "relation": "discusses"
     },
     {
@@ -6593,16 +5350,6 @@
     },
     {
       "source": "paper:corteel_welsh_a2_rr",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:corteel_welsh_a2_rr",
-      "target": "concept:q-binomial theorem",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:corteel_welsh_a2_rr",
       "target": "result:rogers-ramanujan identities",
       "relation": "establishes"
     },
@@ -6649,11 +5396,6 @@
     {
       "source": "result:theorem 5",
       "target": "result:theorem 1",
-      "relation": "uses"
-    },
-    {
-      "source": "concept:q-binomial theorem",
-      "target": "result:theorem 2",
       "relation": "uses"
     },
     {
@@ -6718,22 +5460,7 @@
     },
     {
       "source": "paper:bounded_littlewood",
-      "target": "concept:q-shifted factorials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bounded_littlewood",
-      "target": "concept:rogers-szego polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bounded_littlewood",
       "target": "concept:skew macdonald polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bounded_littlewood",
-      "target": "concept:root systems",
       "relation": "discusses"
     },
     {
@@ -6773,11 +5500,6 @@
     },
     {
       "source": "paper:bounded_littlewood",
-      "target": "concept:elliptic gamma function",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bounded_littlewood",
       "target": "concept:littlewood-richardson coefficients",
       "relation": "discusses"
     },
@@ -6789,11 +5511,6 @@
     {
       "source": "paper:bounded_littlewood",
       "target": "concept:principal specialisation",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:bounded_littlewood",
-      "target": "concept:half-partitions",
       "relation": "discusses"
     },
     {
@@ -6963,16 +5680,6 @@
     },
     {
       "source": "paper:cohl_rogers_generating_function",
-      "target": "concept:orthogonality relations",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:cohl_rogers_generating_function",
-      "target": "concept:q-binomial theorem",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:cohl_rogers_generating_function",
       "target": "result:theorem 4",
       "relation": "establishes"
     },
@@ -6998,11 +5705,6 @@
     },
     {
       "source": "paper:colmenarejo_c-functions_koornwinder",
-      "target": "concept:affine weyl group",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:colmenarejo_c-functions_koornwinder",
       "target": "concept:askey-wilson polynomials",
       "relation": "discusses"
     },
@@ -7018,32 +5720,7 @@
     },
     {
       "source": "paper:colmenarejo_c-functions_koornwinder",
-      "target": "concept:root lattice",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:colmenarejo_c-functions_koornwinder",
-      "target": "concept:principal specialization",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:colmenarejo_c-functions_koornwinder",
-      "target": "concept:poincar\u00e9 polynomial",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:colmenarejo_c-functions_koornwinder",
       "target": "concept:weyl character formula",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:colmenarejo_c-functions_koornwinder",
-      "target": "concept:orthogonality relations",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:colmenarejo_c-functions_koornwinder",
-      "target": "concept:constant term",
       "relation": "discusses"
     },
     {
@@ -7088,16 +5765,6 @@
     },
     {
       "source": "paper:corteel_dousse_uncu_cylindric_partitions_a2_rr",
-      "target": "concept:a2 root system",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:corteel_dousse_uncu_cylindric_partitions_a2_rr",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:corteel_dousse_uncu_cylindric_partitions_a2_rr",
       "target": "concept:q-series",
       "relation": "discusses"
     },
@@ -7113,11 +5780,6 @@
     },
     {
       "source": "paper:corteel_dousse_uncu_cylindric_partitions_a2_rr",
-      "target": "concept:profiles",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:corteel_dousse_uncu_cylindric_partitions_a2_rr",
       "target": "concept:bivariate generating functions",
       "relation": "discusses"
     },
@@ -7129,16 +5791,6 @@
     {
       "source": "paper:corteel_dousse_uncu_cylindric_partitions_a2_rr",
       "target": "concept:young diagrams",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:corteel_dousse_uncu_cylindric_partitions_a2_rr",
-      "target": "concept:creative telescoping",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:corteel_dousse_uncu_cylindric_partitions_a2_rr",
-      "target": "concept:holonomic functions",
       "relation": "discusses"
     },
     {
@@ -7208,27 +5860,12 @@
     },
     {
       "source": "paper:corteel_savelief_vuletic",
-      "target": "concept:domino tilings",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:corteel_savelief_vuletic",
       "target": "concept:interlacing sequences",
       "relation": "discusses"
     },
     {
       "source": "paper:corteel_savelief_vuletic",
-      "target": "concept:pfaffian formula",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:corteel_savelief_vuletic",
       "target": "concept:macmahon formula",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:corteel_savelief_vuletic",
-      "target": "concept:determinantal formula",
       "relation": "discusses"
     },
     {
@@ -7333,16 +5970,6 @@
     },
     {
       "source": "paper:dousse_konan_capparelli_primc_crystals",
-      "target": "concept:coloured partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:dousse_konan_capparelli_primc_crystals",
-      "target": "concept:difference conditions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:dousse_konan_capparelli_primc_crystals",
       "target": "concept:rogers-ramanujan identities",
       "relation": "discusses"
     },
@@ -7379,16 +6006,6 @@
     {
       "source": "paper:dousse_konan_capparelli_primc_crystals",
       "target": "concept:crystal graphs",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:dousse_konan_capparelli_primc_crystals",
-      "target": "concept:weight lattice",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:dousse_konan_capparelli_primc_crystals",
-      "target": "concept:fundamental weights",
       "relation": "discusses"
     },
     {
@@ -7459,11 +6076,6 @@
     {
       "source": "result:theorem 1.4",
       "target": "concept:energy function",
-      "relation": "proves"
-    },
-    {
-      "source": "result:theorem 1.4",
-      "target": "concept:difference conditions",
       "relation": "proves"
     },
     {
@@ -7598,16 +6210,6 @@
     },
     {
       "source": "paper:dousse_konan_multi-grounded_partitions",
-      "target": "concept:coloured partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:dousse_konan_multi-grounded_partitions",
-      "target": "concept:weight lattice",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:dousse_konan_multi-grounded_partitions",
       "target": "result:theorem 1.1",
       "relation": "establishes"
     },
@@ -7698,27 +6300,12 @@
     },
     {
       "source": "paper:gavrilova_refined_littlewood_spin-hl",
-      "target": "concept:pfaffian",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:gavrilova_refined_littlewood_spin-hl",
       "target": "concept:yang-baxter equation",
       "relation": "discusses"
     },
     {
       "source": "paper:gavrilova_refined_littlewood_spin-hl",
       "target": "concept:transfer matrices",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:gavrilova_refined_littlewood_spin-hl",
-      "target": "concept:l-operators",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:gavrilova_refined_littlewood_spin-hl",
-      "target": "concept:fock space",
       "relation": "discusses"
     },
     {
@@ -7738,17 +6325,7 @@
     },
     {
       "source": "paper:gavrilova_refined_littlewood_spin-hl",
-      "target": "concept:lagrange interpolation",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:gavrilova_refined_littlewood_spin-hl",
       "target": "concept:six-vertex model",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:gavrilova_refined_littlewood_spin-hl",
-      "target": "concept:integrable probability",
       "relation": "discusses"
     },
     {
@@ -7834,11 +6411,6 @@
     {
       "source": "paper:fischer_bounded_littlewood_asm",
       "target": "concept:hall-littlewood polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:fischer_bounded_littlewood_asm",
-      "target": "concept:shift operators",
       "relation": "discusses"
     },
     {
@@ -7949,11 +6521,6 @@
     {
       "source": "paper:fischer_littlewood_identities_fully",
       "target": "concept:bialternant formula",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:fischer_littlewood_identities_fully",
-      "target": "concept:pfaffian",
       "relation": "discusses"
     },
     {
@@ -8072,19 +6639,9 @@
       "relation": "proves"
     },
     {
-      "source": "result:lemma 3",
-      "target": "concept:pfaffian",
-      "relation": "uses"
-    },
-    {
       "source": "result:theorem 1",
       "target": "concept:cauchy identity",
       "relation": "related_to"
-    },
-    {
-      "source": "result:theorem 2",
-      "target": "concept:pfaffian",
-      "relation": "uses"
     },
     {
       "source": "author:cuenca",
@@ -8108,16 +6665,6 @@
     },
     {
       "source": "paper:cuenca_interpolation_macdonald",
-      "target": "concept:monomial symmetric polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:cuenca_interpolation_macdonald",
-      "target": "concept:macdonald inner product",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:cuenca_interpolation_macdonald",
       "target": "concept:cauchy identity",
       "relation": "discusses"
     },
@@ -8137,11 +6684,6 @@
       "relation": "discusses"
     },
     {
-      "source": "paper:cuenca_interpolation_macdonald",
-      "target": "concept:vandermonde determinant",
-      "relation": "discusses"
-    },
-    {
       "source": "concept:hall-littlewood polynomials",
       "target": "concept:symmetric functions",
       "relation": "is_instance_of"
@@ -8158,17 +6700,7 @@
     },
     {
       "source": "paper:foda_zhu_fermionic_macdonald_index",
-      "target": "concept:w-algebras",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:foda_zhu_fermionic_macdonald_index",
       "target": "concept:lattice paths",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:foda_zhu_fermionic_macdonald_index",
-      "target": "concept:andrews-gordon identities",
       "relation": "discusses"
     },
     {
@@ -8205,11 +6737,6 @@
       "source": "result:andrews-gordon identities",
       "target": "result:rogers-ramanujan identities",
       "relation": "generalises"
-    },
-    {
-      "source": "result:conjecture 2",
-      "target": "concept:w-algebras",
-      "relation": "proves"
     },
     {
       "source": "author:imamura",
@@ -8263,22 +6790,12 @@
     },
     {
       "source": "paper:he_boundary_asep_six-vertex",
-      "target": "concept:kpz universality",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:he_boundary_asep_six-vertex",
       "target": "concept:partition function",
       "relation": "discusses"
     },
     {
       "source": "paper:he_boundary_asep_six-vertex",
       "target": "concept:q-pochhammer symbols",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:he_boundary_asep_six-vertex",
-      "target": "concept:skew rsk correspondence",
       "relation": "discusses"
     },
     {
@@ -8323,21 +6840,6 @@
     },
     {
       "source": "paper:hopkins_lai_plane_partitions_shifted",
-      "target": "concept:determinantal formula",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:hopkins_lai_plane_partitions_shifted",
-      "target": "concept:pfaffian formula",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:hopkins_lai_plane_partitions_shifted",
-      "target": "concept:nonintersecting lattice paths",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:hopkins_lai_plane_partitions_shifted",
       "target": "result:theorem 1",
       "relation": "establishes"
     },
@@ -8378,27 +6880,12 @@
     },
     {
       "source": "paper:jimenez_pastor_factorial_basis",
-      "target": "concept:q-holonomic functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:jimenez_pastor_factorial_basis",
-      "target": "concept:creative telescoping",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:jimenez_pastor_factorial_basis",
       "target": "concept:recurrence relations",
       "relation": "discusses"
     },
     {
       "source": "paper:jimenez_pastor_factorial_basis",
       "target": "concept:partition identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:jimenez_pastor_factorial_basis",
-      "target": "concept:bilateral sums",
       "relation": "discusses"
     },
     {
@@ -8420,11 +6907,6 @@
       "source": "result:theorem 1",
       "target": "result:rogers-ramanujan identities",
       "relation": "proves"
-    },
-    {
-      "source": "result:theorem 3",
-      "target": "concept:bilateral sums",
-      "relation": "uses"
     },
     {
       "source": "concept:recurrence relations",
@@ -8513,22 +6995,12 @@
     },
     {
       "source": "paper:he_free_boundary_processes",
-      "target": "concept:integrable probability",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:he_free_boundary_processes",
       "target": "concept:yang-baxter equation",
       "relation": "discusses"
     },
     {
       "source": "paper:he_free_boundary_processes",
       "target": "concept:cauchy identity",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:he_free_boundary_processes",
-      "target": "concept:partition functions",
       "relation": "discusses"
     },
     {
@@ -8573,11 +7045,6 @@
     },
     {
       "source": "paper:griffin_ono_rogers-ramanujan_arithmetic",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:griffin_ono_rogers-ramanujan_arithmetic",
       "target": "concept:q-series identities",
       "relation": "discusses"
     },
@@ -8593,32 +7060,7 @@
     },
     {
       "source": "paper:griffin_ono_rogers-ramanujan_arithmetic",
-      "target": "concept:partition functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:griffin_ono_rogers-ramanujan_arithmetic",
-      "target": "concept:siegel functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:griffin_ono_rogers-ramanujan_arithmetic",
-      "target": "concept:kac-moody algebras",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:griffin_ono_rogers-ramanujan_arithmetic",
-      "target": "concept:q-shifted factorials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:griffin_ono_rogers-ramanujan_arithmetic",
       "target": "concept:character formulas",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:griffin_ono_rogers-ramanujan_arithmetic",
-      "target": "concept:principal specialization",
       "relation": "discusses"
     },
     {
@@ -8630,21 +7072,6 @@
       "source": "paper:griffin_ono_rogers-ramanujan_arithmetic",
       "target": "concept:macdonald polynomials",
       "relation": "discusses"
-    },
-    {
-      "source": "paper:griffin_ono_rogers-ramanujan_arithmetic",
-      "target": "concept:hypergeometric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "concept:partition functions",
-      "target": "result:rogers-ramanujan identities",
-      "relation": "related_to"
-    },
-    {
-      "source": "concept:partition functions",
-      "target": "result:andrews-gordon identities",
-      "relation": "related_to"
     },
     {
       "source": "author:hoshino",
@@ -8659,16 +7086,6 @@
     {
       "source": "paper:hoshino_shiraishi_koornwinder_branching",
       "target": "concept:koornwinder polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:hoshino_shiraishi_koornwinder_branching",
-      "target": "concept:monomial symmetric polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:hoshino_shiraishi_koornwinder_branching",
-      "target": "concept:branching rules",
       "relation": "discusses"
     },
     {
@@ -8704,11 +7121,6 @@
     {
       "source": "paper:hoshino_shiraishi_koornwinder_branching",
       "target": "concept:askey-wilson polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:hoshino_shiraishi_koornwinder_branching",
-      "target": "concept:hyperoctahedral group",
       "relation": "discusses"
     },
     {
@@ -8748,22 +7160,12 @@
     },
     {
       "source": "paper:imamura_skew_rsk_dynamics",
-      "target": "concept:skew rsk correspondence",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:imamura_skew_rsk_dynamics",
       "target": "concept:kashiwara operators",
       "relation": "discusses"
     },
     {
       "source": "paper:imamura_skew_rsk_dynamics",
       "target": "concept:q-whittaker polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:imamura_skew_rsk_dynamics",
-      "target": "concept:cylindric tableaux",
       "relation": "discusses"
     },
     {
@@ -8798,21 +7200,6 @@
     },
     {
       "source": "paper:huh_bounded_littlewood_cylindric",
-      "target": "concept:pfaffians",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:huh_bounded_littlewood_cylindric",
-      "target": "concept:oscillating tableaux",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:huh_bounded_littlewood_cylindric",
-      "target": "concept:vacillating tableaux",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:huh_bounded_littlewood_cylindric",
       "target": "concept:schur functions",
       "relation": "discusses"
     },
@@ -8823,32 +7210,7 @@
     },
     {
       "source": "paper:huh_bounded_littlewood_cylindric",
-      "target": "concept:nonintersecting lattice paths",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:huh_bounded_littlewood_cylindric",
-      "target": "concept:growth diagrams",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:huh_bounded_littlewood_cylindric",
       "target": "concept:cylindric partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:huh_bounded_littlewood_cylindric",
-      "target": "concept:skew shapes",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:huh_bounded_littlewood_cylindric",
-      "target": "concept:elementary symmetric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:huh_bounded_littlewood_cylindric",
-      "target": "concept:affine weyl group",
       "relation": "discusses"
     },
     {
@@ -8887,11 +7249,6 @@
       "relation": "generalises"
     },
     {
-      "source": "concept:pfaffians",
-      "target": "result:theorem 3.1",
-      "relation": "uses"
-    },
-    {
       "source": "result:proposition 6.1",
       "target": "result:theorem 3.1",
       "relation": "proves"
@@ -8928,11 +7285,6 @@
     },
     {
       "source": "paper:imamura_cauchy_q-whittaker_skew",
-      "target": "concept:integrable probability",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:imamura_cauchy_q-whittaker_skew",
       "target": "concept:q-pochhammer symbol",
       "relation": "discusses"
     },
@@ -8954,11 +7306,6 @@
     {
       "source": "paper:imamura_cauchy_q-whittaker_skew",
       "target": "concept:partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:imamura_cauchy_q-whittaker_skew",
-      "target": "concept:q-binomial theorem",
       "relation": "discusses"
     },
     {
@@ -9023,11 +7370,6 @@
     },
     {
       "source": "paper:kanade_remarks_capparelli_primc",
-      "target": "concept:coloured partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_remarks_capparelli_primc",
       "target": "concept:cylindric partitions",
       "relation": "discusses"
     },
@@ -9058,16 +7400,6 @@
     },
     {
       "source": "paper:kanade_remarks_capparelli_primc",
-      "target": "concept:rogers-selberg equations",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_remarks_capparelli_primc",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_remarks_capparelli_primc",
       "target": "concept:partition generating functions",
       "relation": "discusses"
     },
@@ -9084,11 +7416,6 @@
     {
       "source": "paper:kanade_remarks_capparelli_primc",
       "target": "concept:bailey lemma",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_remarks_capparelli_primc",
-      "target": "concept:fundamental weights",
       "relation": "discusses"
     },
     {
@@ -9157,11 +7484,6 @@
       "relation": "related_to"
     },
     {
-      "source": "result:jing-misra-savage coloured partition theorem",
-      "target": "concept:coloured partitions",
-      "relation": "uses"
-    },
-    {
       "source": "concept:level-rank duality",
       "target": "concept:affine lie algebras",
       "relation": "uses"
@@ -9218,11 +7540,6 @@
     },
     {
       "source": "paper:kanade_russell_tight_cylindric_partitions",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_russell_tight_cylindric_partitions",
       "target": "concept:rogers-ramanujan identities",
       "relation": "discusses"
     },
@@ -9238,27 +7555,12 @@
     },
     {
       "source": "paper:kanade_russell_tight_cylindric_partitions",
-      "target": "concept:colored partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_russell_tight_cylindric_partitions",
       "target": "concept:functional equations",
       "relation": "discusses"
     },
     {
       "source": "paper:kanade_russell_tight_cylindric_partitions",
       "target": "concept:crystal graphs",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_russell_tight_cylindric_partitions",
-      "target": "concept:profile",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_russell_tight_cylindric_partitions",
-      "target": "concept:inclusion-exclusion",
       "relation": "discusses"
     },
     {
@@ -9383,16 +7685,6 @@
     },
     {
       "source": "paper:kanade_russell_completing_a2_andrews_schilling_warnaar",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_russell_completing_a2_andrews_schilling_warnaar",
-      "target": "concept:partition theory",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_russell_completing_a2_andrews_schilling_warnaar",
       "target": "concept:q-series",
       "relation": "discusses"
     },
@@ -9409,11 +7701,6 @@
     {
       "source": "paper:kanade_russell_completing_a2_andrews_schilling_warnaar",
       "target": "concept:q-binomial coefficients",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_russell_completing_a2_andrews_schilling_warnaar",
-      "target": "concept:modular forms",
       "relation": "discusses"
     },
     {
@@ -9498,17 +7785,7 @@
     },
     {
       "source": "paper:kilic_kursungoz_functional_equations_andrews_gordon",
-      "target": "concept:q-holonomic functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kilic_kursungoz_functional_equations_andrews_gordon",
       "target": "concept:functional equations",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kilic_kursungoz_functional_equations_andrews_gordon",
-      "target": "concept:inclusion-exclusion",
       "relation": "discusses"
     },
     {
@@ -9554,16 +7831,6 @@
     {
       "source": "paper:kursungoz_cylindric_partitions_decomposition",
       "target": "concept:generating functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kursungoz_cylindric_partitions_decomposition",
-      "target": "concept:hasse diagram",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kursungoz_cylindric_partitions_decomposition",
-      "target": "concept:profile",
       "relation": "discusses"
     },
     {
@@ -9643,22 +7910,7 @@
     },
     {
       "source": "paper:konan_systematic_schmidt_type",
-      "target": "concept:colored partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:konan_systematic_schmidt_type",
-      "target": "concept:weighted generating functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:konan_systematic_schmidt_type",
       "target": "concept:rogers-ramanujan identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:konan_systematic_schmidt_type",
-      "target": "concept:symmetric group",
       "relation": "discusses"
     },
     {
@@ -9707,19 +7959,9 @@
       "relation": "generalises"
     },
     {
-      "source": "result:theorem 1.5",
-      "target": "concept:weighted generating functions",
-      "relation": "proves"
-    },
-    {
       "source": "result:theorem 1.7",
       "target": "result:theorem 1.5",
       "relation": "specialises_to"
-    },
-    {
-      "source": "result:lemma 4.2",
-      "target": "concept:symmetric group",
-      "relation": "uses"
     },
     {
       "source": "author:kursung\u00f6z",
@@ -9749,11 +7991,6 @@
     {
       "source": "paper:kursungoz_seyrek_combinatorial_constructions_cylindric",
       "target": "concept:rogers-ramanujan identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kursungoz_seyrek_combinatorial_constructions_cylindric",
-      "target": "concept:andrews-gordon identities",
       "relation": "discusses"
     },
     {
@@ -9813,11 +8050,6 @@
     },
     {
       "source": "paper:kursungoz_decomposition_cylindric",
-      "target": "concept:skew diagrams",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kursungoz_decomposition_cylindric",
       "target": "concept:q-pochhammer symbols",
       "relation": "discusses"
     },
@@ -9834,11 +8066,6 @@
     {
       "source": "paper:kursungoz_decomposition_cylindric",
       "target": "concept:infinite products",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kursungoz_decomposition_cylindric",
-      "target": "concept:rsk correspondence",
       "relation": "discusses"
     },
     {
@@ -9948,11 +8175,6 @@
     },
     {
       "source": "paper:kursungoz_seyrek_decomposition_cylindric_partitions",
-      "target": "concept:profile",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kursungoz_seyrek_decomposition_cylindric_partitions",
       "target": "concept:interlacing row inequalities",
       "relation": "discusses"
     },
@@ -9969,11 +8191,6 @@
     {
       "source": "paper:kursungoz_seyrek_decomposition_cylindric_partitions",
       "target": "concept:functional equations",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kursungoz_seyrek_decomposition_cylindric_partitions",
-      "target": "concept:corteel-welsh equations",
       "relation": "discusses"
     },
     {
@@ -10053,11 +8270,6 @@
     },
     {
       "source": "paper:kanade_russell_tsuchioka_warnaar_capparelli_conjectures",
-      "target": "concept:coloured partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_russell_tsuchioka_warnaar_capparelli_conjectures",
       "target": "concept:frequency arrays",
       "relation": "discusses"
     },
@@ -10079,16 +8291,6 @@
     {
       "source": "paper:kanade_russell_tsuchioka_warnaar_capparelli_conjectures",
       "target": "concept:rogers-ramanujan identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_russell_tsuchioka_warnaar_capparelli_conjectures",
-      "target": "concept:rogers-selberg equations",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_russell_tsuchioka_warnaar_capparelli_conjectures",
-      "target": "concept:andrews-gordon identities",
       "relation": "discusses"
     },
     {
@@ -10143,11 +8345,6 @@
     },
     {
       "source": "paper:kanade_russell_tsuchioka_warnaar_capparelli_conjectures",
-      "target": "concept:half-partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:kanade_russell_tsuchioka_warnaar_capparelli_conjectures",
       "target": "result:gordon's theorem",
       "relation": "establishes"
     },
@@ -10160,11 +8357,6 @@
       "source": "paper:kanade_russell_tsuchioka_warnaar_capparelli_conjectures",
       "target": "result:primc-trup\u010devi\u0107 theorem",
       "relation": "establishes"
-    },
-    {
-      "source": "result:jing-misra-savage coloured partition theorem",
-      "target": "concept:coloured partitions",
-      "relation": "proves"
     },
     {
       "source": "concept:affine lie algebras",
@@ -10183,22 +8375,12 @@
     },
     {
       "source": "paper:larson_generalized_andrews-gordon",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:larson_generalized_andrews-gordon",
       "target": "concept:rogers-ramanujan identities",
       "relation": "discusses"
     },
     {
       "source": "paper:larson_generalized_andrews-gordon",
       "target": "concept:theta functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:larson_generalized_andrews-gordon",
-      "target": "concept:modular forms",
       "relation": "discusses"
     },
     {
@@ -10213,17 +8395,7 @@
     },
     {
       "source": "paper:larson_generalized_andrews-gordon",
-      "target": "concept:pochhammer symbols",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:larson_generalized_andrews-gordon",
       "target": "concept:bounded littlewood identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:larson_generalized_andrews-gordon",
-      "target": "concept:bressoud identities",
       "relation": "discusses"
     },
     {
@@ -10348,37 +8520,12 @@
     },
     {
       "source": "paper:krattenthaler",
-      "target": "concept:growth diagrams",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:krattenthaler",
-      "target": "concept:oscillating tableaux",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:krattenthaler",
-      "target": "concept:vacillating tableaux",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:krattenthaler",
-      "target": "concept:greene's theorem",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:krattenthaler",
       "target": "concept:horizontal strips",
       "relation": "discusses"
     },
     {
       "source": "paper:krattenthaler",
       "target": "concept:vertical strips",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:krattenthaler",
-      "target": "concept:rsk correspondence",
       "relation": "discusses"
     },
     {
@@ -10417,29 +8564,9 @@
       "relation": "establishes"
     },
     {
-      "source": "result:theorem 1",
-      "target": "concept:oscillating tableaux",
-      "relation": "uses"
-    },
-    {
-      "source": "result:theorem 2",
-      "target": "concept:greene's theorem",
-      "relation": "uses"
-    },
-    {
-      "source": "result:theorem 3",
-      "target": "concept:greene's theorem",
-      "relation": "is_instance_of"
-    },
-    {
       "source": "result:theorem 4",
       "target": "result:theorem 2",
       "relation": "specialises_to"
-    },
-    {
-      "source": "result:theorem 5",
-      "target": "concept:vacillating tableaux",
-      "relation": "uses"
     },
     {
       "source": "result:theorem 6",
@@ -10503,11 +8630,6 @@
     },
     {
       "source": "paper:lascoux_pages_001_020",
-      "target": "concept:weyl groups",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_001_020",
       "target": "concept:permutations",
       "relation": "discusses"
     },
@@ -10529,21 +8651,6 @@
     {
       "source": "paper:lascoux_pages_001_020",
       "target": "concept:affine hecke algebra",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_001_020",
-      "target": "concept:poincar\u00e9 polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_001_020",
-      "target": "concept:dominant monomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_001_020",
-      "target": "concept:commutation lemma",
       "relation": "discusses"
     },
     {
@@ -10598,11 +8705,6 @@
     },
     {
       "source": "paper:larson_modular_units_rogers-ramanujan",
-      "target": "concept:siegel functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:larson_modular_units_rogers-ramanujan",
       "target": "concept:bounded littlewood identities",
       "relation": "discusses"
     },
@@ -10625,11 +8727,6 @@
       "source": "paper:larson_modular_units_rogers-ramanujan",
       "target": "result:theorem 4",
       "relation": "establishes"
-    },
-    {
-      "source": "concept:siegel functions",
-      "target": "result:theorem 1",
-      "relation": "uses"
     },
     {
       "source": "author:lascoux",
@@ -10667,11 +8764,6 @@
       "relation": "discusses"
     },
     {
-      "source": "paper:lascoux_pages_141_160",
-      "target": "concept:vexillary codes",
-      "relation": "discusses"
-    },
-    {
       "source": "concept:0-hecke algebra",
       "target": "concept:yang-baxter basis",
       "relation": "related_to"
@@ -10689,16 +8781,6 @@
     {
       "source": "paper:lascoux_pages_041_060",
       "target": "concept:divided-difference operators",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_041_060",
-      "target": "concept:bruhat order",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_041_060",
-      "target": "concept:weyl groups",
       "relation": "discusses"
     },
     {
@@ -10758,16 +8840,6 @@
     },
     {
       "source": "paper:lascoux_pages_021_040",
-      "target": "concept:vandermonde determinant",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_021_040",
-      "target": "concept:grassmannian schubert polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_021_040",
       "target": "concept:yang-baxter equation",
       "relation": "discusses"
     },
@@ -10793,22 +8865,12 @@
     },
     {
       "source": "paper:lascoux_pages_021_040",
-      "target": "concept:symmetric group",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_021_040",
       "target": "concept:symmetric polynomials",
       "relation": "discusses"
     },
     {
       "source": "paper:lascoux_pages_021_040",
       "target": "concept:spectral vector",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_021_040",
-      "target": "concept:commutation lemma",
       "relation": "discusses"
     },
     {
@@ -10878,32 +8940,12 @@
     },
     {
       "source": "paper:lascoux_pages_081_100",
-      "target": "concept:spectral vectors",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_081_100",
       "target": "concept:symmetric functions",
       "relation": "discusses"
     },
     {
       "source": "paper:lascoux_pages_081_100",
-      "target": "concept:dominant monomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_081_100",
-      "target": "concept:grassmannian schubert polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_081_100",
       "target": "concept:braid relations",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_081_100",
-      "target": "concept:scalar products",
       "relation": "discusses"
     },
     {
@@ -10938,11 +8980,6 @@
     },
     {
       "source": "paper:lascoux_pages_061_080",
-      "target": "concept:bruhat order",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_061_080",
       "target": "concept:divided-difference operators",
       "relation": "discusses"
     },
@@ -10963,27 +9000,7 @@
     },
     {
       "source": "paper:lascoux_pages_061_080",
-      "target": "concept:scalar products",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_061_080",
       "target": "concept:newton interpolation",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_061_080",
-      "target": "concept:weyl group",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_061_080",
-      "target": "concept:hasse diagram",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_061_080",
-      "target": "concept:poincar\u00e9 polynomial",
       "relation": "discusses"
     },
     {
@@ -11014,26 +9031,6 @@
     {
       "source": "paper:lascoux_pages_101_120",
       "target": "concept:spectral vector",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_101_120",
-      "target": "concept:monk formula",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_101_120",
-      "target": "concept:complete symmetric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_101_120",
-      "target": "concept:bruhat interval",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_101_120",
-      "target": "concept:branching rule",
       "relation": "discusses"
     },
     {
@@ -11083,27 +9080,7 @@
     },
     {
       "source": "paper:lascoux_pages_121_140",
-      "target": "concept:pieri formula",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_121_140",
-      "target": "concept:vexillary codes",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_121_140",
       "target": "concept:symmetric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_121_140",
-      "target": "concept:monk formula",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lascoux_pages_121_140",
-      "target": "concept:bruhat interval",
       "relation": "discusses"
     },
     {
@@ -11143,16 +9120,6 @@
     },
     {
       "source": "paper:li_uncu_macmahon_analysis_cylindric_partitions",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:li_uncu_macmahon_analysis_cylindric_partitions",
-      "target": "concept:bressoud identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:li_uncu_macmahon_analysis_cylindric_partitions",
       "target": "concept:bailey lemma",
       "relation": "discusses"
     },
@@ -11164,16 +9131,6 @@
     {
       "source": "paper:li_uncu_macmahon_analysis_cylindric_partitions",
       "target": "concept:q-binomial coefficients",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:li_uncu_macmahon_analysis_cylindric_partitions",
-      "target": "concept:bilateral sums",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:li_uncu_macmahon_analysis_cylindric_partitions",
-      "target": "concept:q-hypergeometric functions",
       "relation": "discusses"
     },
     {
@@ -11283,27 +9240,12 @@
     },
     {
       "source": "paper:petreoll_nekrasov-okounkov_c-tilde",
-      "target": "concept:nekrasov-okounkov formula",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:petreoll_nekrasov-okounkov_c-tilde",
       "target": "concept:macdonald identities",
       "relation": "discusses"
     },
     {
       "source": "paper:petreoll_nekrasov-okounkov_c-tilde",
       "target": "concept:hook lengths",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:petreoll_nekrasov-okounkov_c-tilde",
-      "target": "concept:t-cores",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:petreoll_nekrasov-okounkov_c-tilde",
-      "target": "concept:integer partitions",
       "relation": "discusses"
     },
     {
@@ -11383,16 +9325,6 @@
     },
     {
       "source": "paper:russell_companions_andrews_gordon",
-      "target": "concept:integer partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:russell_companions_andrews_gordon",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:russell_companions_andrews_gordon",
       "target": "concept:cylindric partitions",
       "relation": "discusses"
     },
@@ -11418,27 +9350,12 @@
     },
     {
       "source": "paper:russell_companions_andrews_gordon",
-      "target": "concept:gordon's partition theorem",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:russell_companions_andrews_gordon",
       "target": "concept:bivariate generating functions",
       "relation": "discusses"
     },
     {
       "source": "paper:russell_companions_andrews_gordon",
       "target": "concept:functional equations",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:russell_companions_andrews_gordon",
-      "target": "concept:corteel-welsh equations",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:russell_companions_andrews_gordon",
-      "target": "concept:colored partitions",
       "relation": "discusses"
     },
     {
@@ -11703,11 +9620,6 @@
     },
     {
       "source": "paper:lee_rains_warnaar_elliptic_branching",
-      "target": "concept:branching rules",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lee_rains_warnaar_elliptic_branching",
       "target": "concept:macdonald polynomials",
       "relation": "discusses"
     },
@@ -11728,27 +9640,7 @@
     },
     {
       "source": "paper:lee_rains_warnaar_elliptic_branching",
-      "target": "concept:elliptic hypergeometric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lee_rains_warnaar_elliptic_branching",
-      "target": "concept:elliptic beta integral",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lee_rains_warnaar_elliptic_branching",
-      "target": "concept:elliptic gamma function",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lee_rains_warnaar_elliptic_branching",
       "target": "concept:partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lee_rains_warnaar_elliptic_branching",
-      "target": "concept:domino tilings",
       "relation": "discusses"
     },
     {
@@ -11774,11 +9666,6 @@
     {
       "source": "paper:lee_rains_warnaar_elliptic_branching",
       "target": "concept:littlewood identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:lee_rains_warnaar_elliptic_branching",
-      "target": "concept:pfaffian determinants",
       "relation": "discusses"
     },
     {
@@ -11838,11 +9725,6 @@
     },
     {
       "source": "result:theorem 1.1",
-      "target": "concept:branching rules",
-      "relation": "proves"
-    },
-    {
-      "source": "result:theorem 1.1",
       "target": "concept:lifted koornwinder polynomials",
       "relation": "uses"
     },
@@ -11852,19 +9734,9 @@
       "relation": "specialises_to"
     },
     {
-      "source": "result:theorem 5.2",
-      "target": "concept:elliptic beta integral",
-      "relation": "is_instance_of"
-    },
-    {
       "source": "result:theorem 5.6",
       "target": "result:theorem 5.2",
       "relation": "related_to"
-    },
-    {
-      "source": "result:lemma 7.1",
-      "target": "concept:elliptic hypergeometric functions",
-      "relation": "uses"
     },
     {
       "source": "result:theorem 1.1",
@@ -11973,16 +9845,6 @@
     },
     {
       "source": "paper:phd",
-      "target": "concept:fomin growth diagrams",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:phd",
-      "target": "concept:rsk correspondence",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:phd",
       "target": "concept:macdonald polynomials",
       "relation": "discusses"
     },
@@ -11999,11 +9861,6 @@
     {
       "source": "paper:phd",
       "target": "concept:plane partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:phd",
-      "target": "concept:integer partitions",
       "relation": "discusses"
     },
     {
@@ -12044,11 +9901,6 @@
     {
       "source": "paper:phd",
       "target": "concept:hall-littlewood polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:phd",
-      "target": "concept:macdonald inner product",
       "relation": "discusses"
     },
     {
@@ -12108,16 +9960,6 @@
     },
     {
       "source": "paper:tingley",
-      "target": "concept:weight lattice",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:tingley",
-      "target": "concept:rank-level duality",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:tingley",
       "target": "result:theorem 3.1",
       "relation": "establishes"
     },
@@ -12153,16 +9995,6 @@
     },
     {
       "source": "paper:masters",
-      "target": "concept:complete symmetric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:masters",
-      "target": "concept:elementary symmetric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:masters",
       "target": "concept:partitions",
       "relation": "discusses"
     },
@@ -12183,17 +10015,7 @@
     },
     {
       "source": "paper:masters",
-      "target": "concept:pieri formula",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:masters",
       "target": "concept:recurrence relations",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:masters",
-      "target": "concept:q-binomial theorem",
       "relation": "discusses"
     },
     {
@@ -12253,11 +10075,6 @@
     },
     {
       "source": "paper:stanton_rogers-ramanujan_cauchy",
-      "target": "concept:modular forms",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:stanton_rogers-ramanujan_cauchy",
       "target": "concept:hall-littlewood polynomials",
       "relation": "discusses"
     },
@@ -12313,48 +10130,8 @@
     },
     {
       "source": "paper:schlosser_bilateral_rogers_ramanujan",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:schlosser_bilateral_rogers_ramanujan",
-      "target": "concept:q-shifted factorials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:schlosser_bilateral_rogers_ramanujan",
-      "target": "concept:partition theory",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:schlosser_bilateral_rogers_ramanujan",
-      "target": "concept:modular forms",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:schlosser_bilateral_rogers_ramanujan",
-      "target": "concept:slater identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:schlosser_bilateral_rogers_ramanujan",
-      "target": "concept:q-binomial theorem",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:schlosser_bilateral_rogers_ramanujan",
       "target": "concept:infinite products",
       "relation": "discusses"
-    },
-    {
-      "source": "paper:schlosser_bilateral_rogers_ramanujan",
-      "target": "concept:hypergeometric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "result:rogers-ramanujan identities",
-      "target": "concept:partition theory",
-      "relation": "related_to"
     },
     {
       "source": "author:tsuchioka",
@@ -12364,11 +10141,6 @@
     {
       "source": "paper:tsuchioka_vertex_operator_kanade_russell_mod9",
       "target": "concept:rogers-ramanujan identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:tsuchioka_vertex_operator_kanade_russell_mod9",
-      "target": "concept:kanade-russell conjecture",
       "relation": "discusses"
     },
     {
@@ -12393,17 +10165,7 @@
     },
     {
       "source": "paper:tsuchioka_vertex_operator_kanade_russell_mod9",
-      "target": "concept:root lattice",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:tsuchioka_vertex_operator_kanade_russell_mod9",
       "target": "concept:cylindric partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:tsuchioka_vertex_operator_kanade_russell_mod9",
-      "target": "concept:modular forms",
       "relation": "discusses"
     },
     {
@@ -12435,11 +10197,6 @@
       "source": "paper:tsuchioka_vertex_operator_kanade_russell_mod9",
       "target": "concept:crystal bases",
       "relation": "discusses"
-    },
-    {
-      "source": "result:rogers-ramanujan identities",
-      "target": "concept:kanade-russell conjecture",
-      "relation": "generalises"
     },
     {
       "source": "concept:affine lie algebras",
@@ -12484,11 +10241,6 @@
     {
       "source": "paper:pascadi_product_identities_two_variable_rr",
       "target": "concept:infinite products",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:pascadi_product_identities_two_variable_rr",
-      "target": "concept:dedekind eta function",
       "relation": "discusses"
     },
     {
@@ -12568,11 +10320,6 @@
     },
     {
       "source": "paper:waldron_bijective_approaches",
-      "target": "concept:distinct-part partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:waldron_bijective_approaches",
       "target": "concept:q-pochhammer symbol",
       "relation": "discusses"
     },
@@ -12584,11 +10331,6 @@
     {
       "source": "paper:waldron_bijective_approaches",
       "target": "concept:hook lengths",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:waldron_bijective_approaches",
-      "target": "concept:q-binomial coefficient",
       "relation": "discusses"
     },
     {
@@ -12723,27 +10465,7 @@
     },
     {
       "source": "paper:takigiku_tsuchioka_nandi_partition",
-      "target": "concept:difference conditions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:takigiku_tsuchioka_nandi_partition",
       "target": "concept:partition generating functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:takigiku_tsuchioka_nandi_partition",
-      "target": "concept:shift operators",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:takigiku_tsuchioka_nandi_partition",
-      "target": "concept:q-binomial identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:takigiku_tsuchioka_nandi_partition",
-      "target": "concept:slater identities",
       "relation": "discusses"
     },
     {
@@ -12792,11 +10514,6 @@
       "relation": "characterises"
     },
     {
-      "source": "concept:slater identities",
-      "target": "result:theorem 1.4",
-      "relation": "uses"
-    },
-    {
       "source": "concept:partition generating functions",
       "target": "concept:q-series",
       "relation": "related_to"
@@ -12823,17 +10540,7 @@
     },
     {
       "source": "paper:uncu_proofs_modulo11_13_cylindric_kanade_russell",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:uncu_proofs_modulo11_13_cylindric_kanade_russell",
       "target": "concept:q-pochhammer symbol",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:uncu_proofs_modulo11_13_cylindric_kanade_russell",
-      "target": "concept:gordon's partition theorem",
       "relation": "discusses"
     },
     {
@@ -12848,17 +10555,7 @@
     },
     {
       "source": "paper:uncu_proofs_modulo11_13_cylindric_kanade_russell",
-      "target": "concept:creative telescoping",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:uncu_proofs_modulo11_13_cylindric_kanade_russell",
       "target": "concept:affine lie algebras",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:uncu_proofs_modulo11_13_cylindric_kanade_russell",
-      "target": "concept:profiles",
       "relation": "discusses"
     },
     {
@@ -12869,11 +10566,6 @@
     {
       "source": "paper:uncu_proofs_modulo11_13_cylindric_kanade_russell",
       "target": "concept:generating functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:uncu_proofs_modulo11_13_cylindric_kanade_russell",
-      "target": "concept:kanade-russell conjecture",
       "relation": "discusses"
     },
     {
@@ -12923,22 +10615,12 @@
     },
     {
       "source": "paper:warnaar_a2_andrews_gordon_cylindric_partitions",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_a2_andrews_gordon_cylindric_partitions",
       "target": "concept:cylindric partitions",
       "relation": "discusses"
     },
     {
       "source": "paper:warnaar_a2_andrews_gordon_cylindric_partitions",
       "target": "concept:rogers-ramanujan identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_a2_andrews_gordon_cylindric_partitions",
-      "target": "concept:a2 root system",
       "relation": "discusses"
     },
     {
@@ -12963,22 +10645,7 @@
     },
     {
       "source": "paper:warnaar_a2_andrews_gordon_cylindric_partitions",
-      "target": "concept:bailey chains",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_a2_andrews_gordon_cylindric_partitions",
-      "target": "concept:q-binomial identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_a2_andrews_gordon_cylindric_partitions",
       "target": "concept:young diagrams",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_a2_andrews_gordon_cylindric_partitions",
-      "target": "concept:skew shapes",
       "relation": "discusses"
     },
     {
@@ -12993,17 +10660,7 @@
     },
     {
       "source": "paper:warnaar_a2_andrews_gordon_cylindric_partitions",
-      "target": "concept:w-algebras",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_a2_andrews_gordon_cylindric_partitions",
       "target": "concept:level-rank duality",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_a2_andrews_gordon_cylindric_partitions",
-      "target": "concept:partition theory",
       "relation": "discusses"
     },
     {
@@ -13017,11 +10674,6 @@
       "relation": "discusses"
     },
     {
-      "source": "concept:a2 root system",
-      "target": "result:andrews-gordon identities",
-      "relation": "related_to"
-    },
-    {
       "source": "concept:branching functions",
       "target": "concept:cylindric partitions",
       "relation": "related_to"
@@ -13030,11 +10682,6 @@
       "source": "concept:gessel-krattenthaler determinant",
       "target": "concept:cylindric partitions",
       "relation": "uses"
-    },
-    {
-      "source": "concept:bailey chains",
-      "target": "result:andrews-gordon identities",
-      "relation": "related_to"
     },
     {
       "source": "concept:young diagrams",
@@ -13078,42 +10725,12 @@
     },
     {
       "source": "paper:wheeler_zinn-justin_cauchy_littlewood_six-vertex",
-      "target": "concept:partition functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:wheeler_zinn-justin_cauchy_littlewood_six-vertex",
       "target": "concept:koornwinder polynomials",
       "relation": "discusses"
     },
     {
       "source": "paper:wheeler_zinn-justin_cauchy_littlewood_six-vertex",
       "target": "concept:transfer matrices",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:wheeler_zinn-justin_cauchy_littlewood_six-vertex",
-      "target": "concept:l-operators",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:wheeler_zinn-justin_cauchy_littlewood_six-vertex",
-      "target": "concept:fock space",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:wheeler_zinn-justin_cauchy_littlewood_six-vertex",
-      "target": "concept:hyperoctahedral group",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:wheeler_zinn-justin_cauchy_littlewood_six-vertex",
-      "target": "concept:lagrange interpolation",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:wheeler_zinn-justin_cauchy_littlewood_six-vertex",
-      "target": "concept:pfaffians",
       "relation": "discusses"
     },
     {
@@ -13154,11 +10771,6 @@
     {
       "source": "paper:warnaar_affine_jacobi-trudi_identities",
       "target": "concept:semistandard young tableaux",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_affine_jacobi-trudi_identities",
-      "target": "concept:cylindric tableaux",
       "relation": "discusses"
     },
     {
@@ -13213,11 +10825,6 @@
     },
     {
       "source": "paper:warnaar_affine_jacobi-trudi_identities",
-      "target": "concept:rogers-szego polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_affine_jacobi-trudi_identities",
       "target": "concept:modified hall-littlewood polynomials",
       "relation": "discusses"
     },
@@ -13239,16 +10846,6 @@
     {
       "source": "paper:warnaar_affine_jacobi-trudi_identities",
       "target": "concept:cylindric partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_affine_jacobi-trudi_identities",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_affine_jacobi-trudi_identities",
-      "target": "concept:pochhammer symbols",
       "relation": "discusses"
     },
     {
@@ -13313,17 +10910,7 @@
     },
     {
       "source": "paper:xin_zhou_selberg_baker-forrester",
-      "target": "concept:complete symmetric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:xin_zhou_selberg_baker-forrester",
       "target": "concept:symmetric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:xin_zhou_selberg_baker-forrester",
-      "target": "concept:q-shifted factorials",
       "relation": "discusses"
     },
     {
@@ -13353,27 +10940,12 @@
     },
     {
       "source": "paper:xin_zhou_selberg_baker-forrester",
-      "target": "concept:q,t-hall scalar product",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:xin_zhou_selberg_baker-forrester",
       "target": "concept:vertical strips",
       "relation": "discusses"
     },
     {
       "source": "paper:xin_zhou_selberg_baker-forrester",
       "target": "concept:horizontal strips",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:xin_zhou_selberg_baker-forrester",
-      "target": "concept:pieri formula",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:xin_zhou_selberg_baker-forrester",
-      "target": "concept:branching rule",
       "relation": "discusses"
     },
     {
@@ -13393,11 +10965,6 @@
     },
     {
       "source": "paper:zhou_q-morris_constant_term",
-      "target": "concept:q-morris constant term identity",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_q-morris_constant_term",
       "target": "concept:selberg integral",
       "relation": "discusses"
     },
@@ -13413,42 +10980,7 @@
     },
     {
       "source": "paper:zhou_q-morris_constant_term",
-      "target": "concept:q-binomial theorem",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_q-morris_constant_term",
-      "target": "concept:constant term",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_q-morris_constant_term",
-      "target": "concept:q-shifted factorials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_q-morris_constant_term",
-      "target": "concept:complete symmetric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_q-morris_constant_term",
-      "target": "concept:modified complete symmetric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_q-morris_constant_term",
       "target": "concept:cylindric partitions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_q-morris_constant_term",
-      "target": "concept:dominance order",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_q-morris_constant_term",
-      "target": "concept:elementary symmetric functions",
       "relation": "discusses"
     },
     {
@@ -13543,11 +11075,6 @@
     },
     {
       "source": "paper:warnaar_a2_andrews_gordon",
-      "target": "concept:andrews-gordon identities",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_a2_andrews_gordon",
       "target": "concept:rogers-ramanujan identities",
       "relation": "discusses"
     },
@@ -13564,11 +11091,6 @@
     {
       "source": "paper:warnaar_a2_andrews_gordon",
       "target": "concept:affine kac-moody algebras",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_a2_andrews_gordon",
-      "target": "concept:vertex operator algebras",
       "relation": "discusses"
     },
     {
@@ -13613,16 +11135,6 @@
     },
     {
       "source": "paper:warnaar_a2_andrews_gordon",
-      "target": "concept:bailey chains",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_a2_andrews_gordon",
-      "target": "concept:q-shifted factorials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_a2_andrews_gordon",
       "target": "concept:theta functions",
       "relation": "discusses"
     },
@@ -13654,11 +11166,6 @@
     {
       "source": "paper:warnaar_a2_andrews_gordon",
       "target": "concept:functional equations",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:warnaar_a2_andrews_gordon",
-      "target": "concept:bressoud identities",
       "relation": "discusses"
     },
     {
@@ -13708,22 +11215,12 @@
     },
     {
       "source": "paper:zhou_aflt_q-morris_identity",
-      "target": "concept:q-morris constant term identity",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_aflt_q-morris_identity",
       "target": "concept:macdonald polynomials",
       "relation": "discusses"
     },
     {
       "source": "paper:zhou_aflt_q-morris_identity",
       "target": "concept:skew macdonald polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_aflt_q-morris_identity",
-      "target": "concept:q-binomial coefficient",
       "relation": "discusses"
     },
     {
@@ -13748,17 +11245,7 @@
     },
     {
       "source": "paper:zhou_aflt_q-morris_identity",
-      "target": "concept:complete symmetric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_aflt_q-morris_identity",
       "target": "concept:hall-littlewood polynomials",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_aflt_q-morris_identity",
-      "target": "concept:pieri formula",
       "relation": "discusses"
     },
     {
@@ -13778,32 +11265,7 @@
     },
     {
       "source": "paper:zhou_aflt_q-morris_identity",
-      "target": "concept:dominance order",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_aflt_q-morris_identity",
-      "target": "concept:skew diagrams",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_aflt_q-morris_identity",
       "target": "concept:symmetric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_aflt_q-morris_identity",
-      "target": "concept:modified complete symmetric functions",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_aflt_q-morris_identity",
-      "target": "concept:q,t-hall scalar product",
-      "relation": "discusses"
-    },
-    {
-      "source": "paper:zhou_aflt_q-morris_identity",
-      "target": "concept:branching rule",
       "relation": "discusses"
     },
     {
@@ -13814,7 +11276,7 @@
   ],
   "meta": {
     "papers": 81,
-    "total_nodes": 504,
-    "total_edges": 1761
+    "total_nodes": 398,
+    "total_edges": 1457
   }
 }
