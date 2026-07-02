@@ -180,17 +180,45 @@ async def extract_all(
 
 # ── Graph assembly ───────────────────────────────────────────────────
 
+# Pattern matching generic numbered results (Theorem 1, Lemma 2.3, etc.)
+_GENERIC_RESULT_RE = re.compile(
+    r"^(theorem|lemma|corollary|proposition|conjecture)\s+[\d.]+$",
+    re.IGNORECASE,
+)
+
+# Directed relations where A rel B and B rel A is a contradiction
+_DIRECTED_RELATIONS = {"generalises", "specialises_to", "proves"}
+
+# Allowed (source_type, target_type) pairs for is_instance_of
+_INSTANCE_OF_ALLOWED = {
+    ("concept", "concept"),
+    ("result", "result"),
+    ("result", "concept"),
+}
+
+
 def assemble_graph(extractions: dict[str, dict]) -> dict:
     """Merge per-paper extractions into a unified knowledge graph."""
     nodes: dict[str, dict] = {}  # id -> {id, label, type, papers: [...]}
     edges: list[dict] = []
 
-    def node_id(label: str, node_type: str) -> str:
-        """Normalise a label into a stable node ID."""
-        return f"{node_type}:{label.lower().strip()}"
+    def is_generic_result(label: str) -> bool:
+        """True for labels like 'Theorem 1', 'Lemma 2.3' — not 'Andrews-Gordon identities'."""
+        return bool(_GENERIC_RESULT_RE.match(label.strip()))
+
+    def node_id(label: str, node_type: str, paper: str = "") -> str:
+        """Normalise a label into a stable node ID.
+
+        Generic numbered results are namespaced by paper to prevent
+        'Theorem 1' from 12 different papers merging into one node.
+        """
+        key = label.lower().strip()
+        if node_type == "result" and is_generic_result(label) and paper:
+            return f"{node_type}:{paper}:{key}"
+        return f"{node_type}:{key}"
 
     def ensure_node(label: str, node_type: str, paper: str) -> str:
-        nid = node_id(label, node_type)
+        nid = node_id(label, node_type, paper)
         if nid not in nodes:
             nodes[nid] = {
                 "id": nid,
@@ -239,14 +267,24 @@ def assemble_graph(extractions: dict[str, dict]) -> dict:
             tgt = edge.get("target", "")
             rel = edge.get("relation", "related_to")
 
-            # Find which type the source/target belongs to
+            # Find which type the source/target belongs to.
+            # For results, try paper-namespaced ID first, then global.
             src_nid = None
             tgt_nid = None
             for node_type in ["concept", "result"]:
-                if node_id(src, node_type) in nodes:
-                    src_nid = node_id(src, node_type)
-                if node_id(tgt, node_type) in nodes:
-                    tgt_nid = node_id(tgt, node_type)
+                if src_nid is None:
+                    # Paper-local first (for generic results), then global
+                    candidate = node_id(src, node_type, paper_name)
+                    if candidate in nodes:
+                        src_nid = candidate
+                    elif node_id(src, node_type) in nodes:
+                        src_nid = node_id(src, node_type)
+                if tgt_nid is None:
+                    candidate = node_id(tgt, node_type, paper_name)
+                    if candidate in nodes:
+                        tgt_nid = candidate
+                    elif node_id(tgt, node_type) in nodes:
+                        tgt_nid = node_id(tgt, node_type)
 
             if src_nid and tgt_nid:
                 edges.append({
@@ -254,6 +292,8 @@ def assemble_graph(extractions: dict[str, dict]) -> dict:
                     "target": tgt_nid,
                     "relation": rel,
                 })
+
+    # ── Post-processing: validate and clean edges ───────────────────
 
     # Deduplicate edges
     seen = set()
@@ -264,13 +304,68 @@ def assemble_graph(extractions: dict[str, dict]) -> dict:
             seen.add(key)
             unique_edges.append(e)
 
+    # Detect contradictory directed edges (A generalises B AND B generalises A)
+    # and demote both to "related_to"
+    directed_pairs: dict[tuple[str, str], str] = {}
+    contradictions: set[tuple[str, str]] = set()
+    for e in unique_edges:
+        rel = e["relation"]
+        if rel in _DIRECTED_RELATIONS:
+            pair = (e["source"], e["target"])
+            reverse = (e["target"], e["source"])
+            if reverse in directed_pairs:
+                contradictions.add(pair)
+                contradictions.add(reverse)
+            directed_pairs[pair] = rel
+
+    # Validate type compatibility for is_instance_of
+    def get_node_type(nid: str) -> str:
+        node = nodes.get(nid)
+        return node["type"] if node else ""
+
+    cleaned_edges = []
+    n_contradictions = 0
+    n_type_errors = 0
+    for e in unique_edges:
+        src, tgt, rel = e["source"], e["target"], e["relation"]
+        pair = (src, tgt)
+
+        # Fix 2: demote contradictory directed edges
+        if pair in contradictions and rel in _DIRECTED_RELATIONS:
+            e = {**e, "relation": "related_to"}
+            n_contradictions += 1
+
+        # Fix 3: reject type-mismatched is_instance_of
+        if rel == "is_instance_of":
+            src_type = get_node_type(src)
+            tgt_type = get_node_type(tgt)
+            if (src_type, tgt_type) not in _INSTANCE_OF_ALLOWED:
+                e = {**e, "relation": "related_to"}
+                n_type_errors += 1
+
+        cleaned_edges.append(e)
+
+    # Re-deduplicate after relation changes
+    seen = set()
+    final_edges = []
+    for e in cleaned_edges:
+        key = (e["source"], e["target"], e["relation"])
+        if key not in seen:
+            seen.add(key)
+            final_edges.append(e)
+
+    if n_contradictions:
+        print(f"  Fixed {n_contradictions} contradictory directed edges")
+    if n_type_errors:
+        print(f"  Fixed {n_type_errors} type-mismatched is_instance_of edges")
+
     graph = {
         "nodes": list(nodes.values()),
-        "edges": unique_edges,
+        "edges": final_edges,
         "meta": {
             "papers": len(extractions),
             "total_nodes": len(nodes),
-            "total_edges": len(unique_edges),
+            "total_edges": len(final_edges),
         },
     }
     return graph
